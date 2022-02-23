@@ -1,19 +1,20 @@
 
 import React from "react";
-
-
-
-import Footer from "./compontents js/Footer";
-
+import Footer from "./Footer/Footer";
 import "./App.css";
+import HomePage from "./Homepage/HomePage";
+
+
 
 const App = () => (
     <div className="App"> 
-    <h3></h3>
-    <h2></h2>
     
+    <HomePage/>
+   
     <Footer />
     </div>
 )
 
 export default App;
+
+

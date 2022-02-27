@@ -2,13 +2,14 @@
  import React from 'react'
  import "./Homepage.css";
  
- 
-   
+
+
 
  
  
  export default function HomePage() {
    return (
+
      <div className='homepage-details'> 
 
      <div className='homepage-body'></div>
@@ -27,20 +28,18 @@
      <span className="profile-role-overline">
      VIEW THE EXTRAORDINARY
      </span>
-    <div className='background-picture'>
+    <div className='logo'>
         <span className='Homepage-button'>
             VIEW OUR PROPERTIES
         </span>
-
-        
-     
-
-
 
 
     </div>
      
      </div>
    )
+
+   
  }
+
  

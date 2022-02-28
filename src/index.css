@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background:#BEA38A;
+  color: white;
+}
+
+.nav-links-style {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+  
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+color: #FFFFFF;
+
+  
+
+font-family: Atkinson Hyperlegible;
+
+
+
+}
+
+
+
+
+
+

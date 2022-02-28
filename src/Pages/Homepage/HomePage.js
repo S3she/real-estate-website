@@ -12,7 +12,7 @@
 
      <div className='homepage-details'> 
 
-     <div className='homepage-body'></div>
+     <div className='homepage-body'>
 
      <span className="Profile-role-tagline">
      Homes in Gothenburg
@@ -33,7 +33,7 @@
             VIEW OUR PROPERTIES
         </span>
 
-
+        </div>
     </div>
      
      </div>

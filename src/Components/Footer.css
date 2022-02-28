@@ -1,15 +1,12 @@
 .footer {
-
     background-color: #BEA38A;
     
-   margin-top: 0.5rem;
+   margin-top: 0.2rem;
    padding: rem;
    position: fixed;
    bottom: 0;
    left: 0;
    width: 100%;
-   
-   
    
    font-family: Alegreya;
    font-size: 20px;
@@ -18,6 +15,4 @@
    text-align: center;
    letter-spacing: 0.08em;
    color: #FFFFFF;
-   
-   
-   }
+}

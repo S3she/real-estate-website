@@ -3,10 +3,11 @@ import '/.contact.css';
 
 
 
-function Contact() {
-  return (
-    <div>Contact</div>
-  )
-}
+const contact = () => {
 
-export default Contact
+ 
+return (
+ <div></div>
+)
+}
+export default contact;

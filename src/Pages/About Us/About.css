@@ -27,6 +27,10 @@
 }
 .text-paragraph{
     padding-bottom: 2rem;
+   
+}
+.text-paragraph {
+    font-size: 17px;
 }
 
 .headline{
@@ -36,8 +40,9 @@
 
 .container img {
   
-    height: 60%;
-    width: 100%;
+    max-height: 70vh;
+    overflow: hidden;
+    height: auto;
  
   }
 

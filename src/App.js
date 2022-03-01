@@ -7,7 +7,7 @@ import HomePage from './Pages/Homepage/HomePage';
 import Footer from './Components/Footer';
 import About from './Pages/About Us/About';
 import Nav from "./Components/Nav";
-import Homes from './Pages/Sale/Homes';
+import Homes from './Pages/Homes/Homes';
 import Services from './Pages/Our Services/Services';
 
 

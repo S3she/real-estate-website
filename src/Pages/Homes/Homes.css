@@ -52,14 +52,51 @@
     line-height: 27px;
     text-align: center;
 }
-.text-paragraph{
+.vitRektangel{
     padding-bottom: 2rem;
 }
 
 .headline{
-    padding-top: 2rem;
-    padding-bottom: 4rem;
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+    position: absolute;
+    flex-direction: column;
+    padding: 0,7rem;
+
 }
+
+.row {
+    
+    display: flex;
+    height: 3%;
+    width: 3%;
+    padding: 0.7rem;
+}    
+
+.rowTwo {
+    display: flex;
+    height: 3%;
+    width: 3%;
+    padding: 0.7rem;
+}
+
+.rowThree {
+    display: flex;
+    height: 3%;
+    width: 3%;
+    padding: 0.7rem;
+}
+
+.rowFour {
+
+    display: flex;
+    height: 3%;
+    width: 3%;
+    padding: 0.7rem;
+
+}
+
+
 
 
 

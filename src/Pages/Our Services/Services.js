@@ -12,7 +12,7 @@ function Services() {
     </div> */}
     <div className="hero-text">        
         <div className="headline">
-            REAL ESTATE GOTHENBURG
+            
         </div>
         <div className="text-paragraph">
          

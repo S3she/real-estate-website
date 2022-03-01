@@ -1,6 +1,5 @@
 
-
-.box{
+.boxen{
     display: flex;
     flex-direction: column;
     width: 1150px;
@@ -8,4 +7,5 @@
     margin-top: -30%;
     margin-bottom: 30%;
     margin-left: 15%;
+
 }

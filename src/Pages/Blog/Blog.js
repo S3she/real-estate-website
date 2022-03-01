@@ -1,10 +1,10 @@
 import React from 'react'
-import './Blog.css'
+import './blog.css'
 
 
 function Blog() {
   return (
-    <div className="boxbox">
+    <div className="box">
     <div className="homes-img">
     {/* <img style={imageStyle} src={commercialImage}/> */}
     </div>
@@ -13,13 +13,12 @@ function Blog() {
     </div> */}
     <div className="hero-text">        
         <div className="headline">
-            REAL ESTATE GOTHENBURG
+          
         </div>
         <div className="text-paragraph">
             
 
-
-            HOMES FOR SALE
+BLOGGEN
 
         </div>
     </div>

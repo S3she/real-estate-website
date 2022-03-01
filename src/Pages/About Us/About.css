@@ -1,72 +1,43 @@
-.Background-rectangle{
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-
-    position: absolute;
-    width: 1123px;
-    height: 1245px;
-    left: 192px;
-    top: 263px;
-    
-    background: #FBF4F4;
+.container{
+    min-width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-
-.OverlayPicture {
-
-    width: 100%;
-    height: 400px;
-    overflow: hidden;
-    
-
-background-image: url(jimmy-dean-Qngdf0kgGB4-unsplash.jpg);
+@media screen and (max-width:768px){
+    .container{
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+.hero-text{
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 300px;
+    font-size: 24px;
+    font-family: 'Playfair Display';
+    line-height: 32px;
+    text-align: center;
+}
+.text-paragraph{
+    padding-bottom: 2rem;
 }
 
-.OverlayPicture img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+.headline{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
 }
 
-.text {
-
+.container img {
   
-    position: absolute;
-    width: 518px;
-    height: -300px;
-    left: 398px;
-    top: 482px;
-    
-    font-family: Playfair Display;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 32px;
-    display: flex;
-    align-items: flex-end;
-    text-align: center;
-    
-    color: #000000;
+    height: 60%;
+    width: 100%;
+ 
+  }
 
-}
-
-.textUnderline{
-
-    position: absolute;
-    width: 518px;
-    height: -300px;
-    left: -80px;
-    top: 182px;
-
-    font-family: Playfair Display;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 32px;
-    display: flex;
-    align-items: flex-end;
-    text-align: center;
-    
-    color: #000000;
-
-
-}

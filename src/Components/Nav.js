@@ -2,17 +2,31 @@ import React, { useState } from 'react';
 import {Link} from 'react-router-dom';
 import bootstrap from 'bootstrap';
 import "./Nav.css";
+import ReusableButton from './ReusableButton';
+import logga from './logga.png'
+import { hover } from '@testing-library/user-event/dist/hover';
 
 const Nav = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
 
     const navStyle = {
-        color: 'white'
+        color: 'black',
+        textDecoration: 'none',
     };
+
+    const logoStyle = {
+        width: '70px',
+        marginLeft: '7rem'
+    }
+
+    const iconStyle = {
+        fontSize: '50px',
+        cursor: 'pointer'
+    }
 
     return (
         <nav>
-            <><img src={require('../images/logga_g.png')} alt="logo" /></>
+            <img style={logoStyle} src={logga}/>
             <ul className="nav-links-style">
                 <li><Link style={navStyle} to="/">Home</Link></li>
                 <li><Link style={navStyle} to="/About">About Us</Link></li>
@@ -20,17 +34,17 @@ const Nav = () => {
                 <li><Link style={navStyle} to="/Services">Our Services</Link></li>
                 <li><Link style={navStyle} to="/Blog">Blog</Link></li>
                 <li><Link style={navStyle} to="/Booking">Booking</Link></li>
-            <button type="button" className="new_button">Contact</button>       
+                <li className='contact-button'><Link style={navStyle} to="/Contact"><ReusableButton>Contact</ReusableButton></Link></li>      
             </ul>
 
         {/* <div> */}
         <div className="nav-small-screen">
-            <i class="bi bi-list" fontSize={27} onClick={() => setToggleMenu(true)}></i>
+            <i class="bi bi-list 8xl" style={iconStyle}  fontSize={27} onClick={() => setToggleMenu(true)}></i>
             </div>
             
             {toggleMenu && (
             <div className="nav-small-screen-overlay">
-                <i class="bi bi-x" fontSize={27} alt="close" onClick={() => setToggleMenu(false)}></i>
+                <i class="bi bi-x " style={iconStyle}fontSize={27} alt="close" onClick={() => setToggleMenu(false)}></i>
             <ul className="nav-small-links">
                 <li><Link style={navStyle} to="/">Home</Link></li>
                 <li><Link style={navStyle} to="/About">About Us</Link></li>
@@ -38,7 +52,7 @@ const Nav = () => {
                 <li><Link style={navStyle} to="/Services">Our Services</Link></li>
                 <li><Link style={navStyle} to="/Blog">Blog</Link></li>
                 <li><Link style={navStyle} to="/Booking">Booking</Link></li>
-            <button type="button" className="button_contact">Contact</button>       
+                <li><Link style={navStyle} to="/Contact"><ReusableButton>Contact</ReusableButton></Link></li>        
             </ul>
             </div>
             )}

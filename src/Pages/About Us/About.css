@@ -6,6 +6,7 @@
     margin-top: -40%;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 @media screen and (max-width:768px){
@@ -38,7 +39,7 @@
 
 .headline{
     padding-top: 2rem;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
 }
 
 .container img {

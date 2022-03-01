@@ -3,6 +3,8 @@ import './contact.css';
 
 
 
+
+
 const contact = () => {
 
  
@@ -16,6 +18,8 @@ return (
     </div> */}
     <div className="hero-text">        
         <div className="headline">
+
+          CONTACT US
             
         </div>
         <div className="text-paragraph">
@@ -29,7 +33,15 @@ return (
            and personalized attention to unique property requirements. 
 
 
+
+
+           
+
+
+
+
           </div>
+
 
           <div className='paragraphtree'>
 
@@ -40,6 +52,8 @@ return (
 
 
           </div>
+
+        
       
         </div>
     </div>

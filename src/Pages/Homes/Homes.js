@@ -20,9 +20,11 @@ const Homes = () => {
                 REAL ESTATE GOTHENBURG
             </div>
             <div className="text-paragraph">
-                På Real Estate möts du av mäklare som är serviceinriktade, 
-                målinriktade och extremt drivna i yrket. Vi jobbar individuellt efter var 
-                kunds specifika krav och vi är inte nöjda förrän du är nöjd.
+                
+
+
+                HOMES FOR SALE
+
             </div>
         </div>
         

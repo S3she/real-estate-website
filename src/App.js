@@ -11,7 +11,7 @@ import Homes from './Pages/Homes/Homes';
 import Services from './Pages/Our Services/Services';
 import Blog from './Pages/Blog/Blog';
 import Contact from './Pages/Contact/Contact';
-import Booking from './Pages/Booking/Booking';
+
 
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
           <Route path="/Services" element={<Services/>} />
           <Route path="/Blog" element={<Blog/>} />
           <Route path="/Contact" element={<Contact/>} /> 
-          <Route path="/Booking" element={<Booking/>} /> 
+        
         </Routes>
 
         <Footer />

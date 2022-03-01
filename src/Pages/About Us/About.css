@@ -16,9 +16,9 @@
         flex-direction: column;
     }
 }
-.hero-text{
+.about-text{
     background-color: white;
-    margin-top: -20%;
+    margin-top: -23%;
     margin-bottom: 30;
     padding-left: 10%;
     padding-right: 10%;
@@ -28,15 +28,13 @@
     line-height: 32px;
     text-align: center;
 }
-.text-paragraph{
+.about-text-paragraph{
     padding-bottom: 2rem;
+    font-size: 17px;
    
 }
-.text-paragraph {
-    font-size: 17px;
-}
 
-.headline{
+.about-headline{
     padding-top: 2rem;
     padding-bottom: 4rem;
 }

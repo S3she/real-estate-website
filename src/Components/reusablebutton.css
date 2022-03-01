@@ -2,7 +2,7 @@
 
 .buttonStyle{
     display: flex;
-    margin: 25px auto 0px auto; /* keep the table centered */
+    margin: 0px auto 0px auto; /* keep the table centered */
     padding:10px;
     font-size:15px;
     background-color:#BEA38A;

@@ -1,6 +1,6 @@
 import React from "react";
 import './Homes.css';
-import commercialImage from './jimmy-dean-Qngdf0kgGB4-unsplash.jpg'
+// import commercialImage from './jimmy-dean-Qngdf0kgGB4-unsplash.jpg'
 
 const Homes = () => {
 
@@ -8,10 +8,13 @@ const Homes = () => {
     };
 
   return (
-    <div className="container">
+    <div className="box">
         <div className="homes-img">
-        <img style={imageStyle} src={commercialImage}/>
+        {/* <img style={imageStyle} src={commercialImage}/> */}
         </div>
+        {/* <div className="homes2-img">
+        <img style={imageStyle} src={commercialImage}/>
+        </div> */}
         <div className="hero-text">        
             <div className="headline">
                 REAL ESTATE GOTHENBURG

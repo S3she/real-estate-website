@@ -16,14 +16,12 @@ body{
 @media screen and (max-width:768px) {
     body {
         height: 812px;
-        padding-top: 100%;
+        padding-top: 70%;
 
     }
     .container{
         display: block;
-        text-align: center;
-        align-items: center;
-        margin: 0 auto;
+        max-width: 100%;
     }
     
     .eye-catcher-text{
@@ -33,6 +31,8 @@ body{
         font-size: 18px;
         line-height: 26px;
         color: #BD9B7B;
+        text-align: center;
+        position: relative;
     }
     
     .text-headline{
@@ -41,16 +41,17 @@ body{
         color: #000000;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         font-family: 'Playfair Display';
+        text-align: center;
+        position: relative;
     }
     
     .hero-text-homepage{
-        display: none;
+        display: block;
+        text-align: center;
+        position: relative;
     }
     
     .view-properties{
-        width: 50%;
-        display: flex;
-        align-items: center;
         list-style: none;
         font-style: normal;
         font-weight: normal;
@@ -59,6 +60,8 @@ body{
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
         color: #FFFFFF;
         font-family: 'Atkinson Hyperlegible';
+        text-align: center;
+        position: relative;
     }
 
 }
@@ -67,8 +70,8 @@ body{
     flex-direction: column;
     width: 350px;
     text-align: center;
-    margin-top: -37%;
-    margin-left: 15%;
+    align-items: center;
+    margin: 0 auto;
 }
 
 
@@ -88,7 +91,7 @@ body{
     color: #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: 'Playfair Display';
-    
+
 }
 
 .hero-text-homepage{
@@ -98,24 +101,21 @@ body{
     font-size: 16px;
     line-height: 16px;
     color: #000000;
-    padding-top: 4%;
+    padding-top: 2em;
     padding-bottom: 1em;
     background-color: none;
-    margin-left: 34%;
     width: 350px;
 }
 
 .view-properties{
-    width: 50%;
     display: flex;
     align-items: center;
     list-style: none;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    padding-top: 4%;
+    padding-top: 1rem;
     line-height: 20px;
-    margin-left: 43%;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: #FFFFFF;
     font-family: 'Atkinson Hyperlegible';

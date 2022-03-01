@@ -17,7 +17,6 @@ return (
     <div className="hero-text">        
         <div className="headline">
             
-          CONTACT US
         </div>
         <div className="text-paragraph">
         Your Luxury Real Estate Experience

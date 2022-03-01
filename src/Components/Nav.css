@@ -5,11 +5,13 @@ nav{
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  position: fixed;
   color: black;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 
   top: 0;
-  left: 0;
+  left: -4%;
   right: 0;
   z-index: 99;
   padding: 4px 8px;

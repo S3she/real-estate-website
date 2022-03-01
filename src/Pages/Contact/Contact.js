@@ -7,7 +7,7 @@ const contact = () => {
 
  
 return (
-  <div className="box">
+  <div className="boxtree">
     <div className="homes-img">
     {/* <img style={imageStyle} src={commercialImage}/> */}
     </div>

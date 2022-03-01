@@ -1,10 +1,10 @@
 import React from 'react'
-import './blog.css'
+import './Blog.css'
 
 
 function Blog() {
   return (
-    <div className="boxfyra">
+    <div className="boxbox">
     <div className="homes-img">
     {/* <img style={imageStyle} src={commercialImage}/> */}
     </div>

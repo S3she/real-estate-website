@@ -1,11 +1,11 @@
 
 
-.boxfyra{
+.boxbox{
     display: flex;
     flex-direction: column;
-    width: 850px;
+    width: 1150px;
     text-align: center;
-    margin-top: -40%;
-    
-    margin-left: 23%;
+    margin-top: -30%;
+    margin-bottom: 30%;
+    margin-left: 15%;
 }

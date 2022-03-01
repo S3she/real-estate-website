@@ -33,7 +33,7 @@ const Nav = () => {
                 <li><Link style={navStyle} to="/Homes">Homes for sale</Link></li>
                 <li><Link style={navStyle} to="/Services">Our Services</Link></li>
                 <li><Link style={navStyle} to="/Blog">Blog</Link></li>
-                <li><Link style={navStyle} to="/Booking">Booking</Link></li>
+          
                 <li className='contact-button'><Link style={navStyle} to="/Contact"><ReusableButton>Contact</ReusableButton></Link></li>      
             </ul>
 
@@ -51,7 +51,7 @@ const Nav = () => {
                 <li><Link style={navStyle} to="/Homes">Homes for sale</Link></li>
                 <li><Link style={navStyle} to="/Services">Our Services</Link></li>
                 <li><Link style={navStyle} to="/Blog">Blog</Link></li>
-                <li><Link style={navStyle} to="/Booking">Booking</Link></li>
+             
                 <li><Link style={navStyle} to="/Contact"><ReusableButton>Contact</ReusableButton></Link></li>        
             </ul>
             </div>

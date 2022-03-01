@@ -10,7 +10,6 @@ import Nav from "./Components/Nav";
 import Homes from './Pages/Homes/Homes';
 import Services from './Pages/Our Services/Services';
 
-
 function App() {
   return (
     <Router>
@@ -19,9 +18,11 @@ function App() {
         <Routes>
           <Route path="/" exact element={<HomePage />} />
           <Route path="/About" element={<About />} />
-          <Route path="/homes" element={<Homes/>} />
+          <Route path="/Homes" element={<Homes/>} />
+          <Route path="/Services" element={<Services/>} />
+          {/* <Route path="/Blog" element={<Blog/>} /> */}
+          {/* <Route path="/Contact" element={<Contact/>} /> */}
         </Routes>
-        
 
         <Footer />
       </div>

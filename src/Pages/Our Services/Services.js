@@ -3,7 +3,26 @@ import './Services.css'
 
 function Services() {
   return (
-    <div>Services</div>
+    <div className="boxbox">
+    <div className="homes-img">
+    {/* <img style={imageStyle} src={commercialImage}/> */}
+    </div>
+    {/* <div className="homes2-img">
+    <img style={imageStyle} src={commercialImage}/>
+    </div> */}
+    <div className="text-paragraphh">        
+        <div className="headlinetwo">
+            
+        </div>
+        <div className="text-paragraphtree">
+         
+
+         OUR SERVICES
+
+        </div>
+    </div>
+    
+</div>
   )
 }
 

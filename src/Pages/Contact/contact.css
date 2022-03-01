@@ -1,0 +1,47 @@
+
+.boxtree{
+    display: flex;
+    flex-direction: column;
+    width: 1150px;
+    text-align: center;
+    margin-top: -25%;
+    margin-bottom: 30%;
+    margin-left: 15%;
+
+  
+
+   }
+
+   .headline {
+
+    position: absolute;
+width: 1087px;
+height: 569px;
+
+background: #FBF4F4;
+   }
+
+   .text-paragraph {
+
+position: absolute;
+width: 504px;
+height: 401px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 32px;
+margin-top: 9%;
+
+max-height: 20%;
+
+color: #000000;
+
+   }
+    
+
+
+
+
+   

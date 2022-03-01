@@ -1,14 +1,10 @@
-import React from "react";
-import './Homes.css';
-// import commercialImage from './jimmy-dean-Qngdf0kgGB4-unsplash.jpg'
+import React from 'react'
 
-const Homes = () => {
+import './Booking.css'
 
-    const imageStyle = {
-    };
-
+function Booking() {
   return (
-    <div className="box">
+    <div className="boxen">
         <div className="homes-img">
         {/* <img style={imageStyle} src={commercialImage}/> */}
         </div>
@@ -23,7 +19,7 @@ const Homes = () => {
                 
 
 
-                HOMES FOR SALE
+               BOOKING
 
             </div>
         </div>
@@ -31,8 +27,5 @@ const Homes = () => {
     </div>
   )
 }
-export default Homes;
 
-
-
-
+export default Booking

@@ -9,6 +9,10 @@ import About from './Pages/About Us/About';
 import Nav from "./Components/Nav";
 import Homes from './Pages/Homes/Homes';
 import Services from './Pages/Our Services/Services';
+import Blog from './Pages/Blog/Blog';
+import Contact from './Pages/Contact/Contact';
+import Booking from './Pages/Booking/Booking';
+
 
 function App() {
   return (
@@ -20,8 +24,9 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Homes" element={<Homes/>} />
           <Route path="/Services" element={<Services/>} />
-          {/* <Route path="/Blog" element={<Blog/>} /> */}
-          {/* <Route path="/Contact" element={<Contact/>} /> */}
+          <Route path="/Blog" element={<Blog/>} />
+          <Route path="/Contact" element={<Contact/>} /> 
+          <Route path="/Booking" element={<Booking/>} /> 
         </Routes>
 
         <Footer />

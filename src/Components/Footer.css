@@ -1,13 +1,18 @@
 .footer {
     background-color: #a89f97;
     
-   margin-top: 0.2rem;
+
+
+
+   margin-top: auto;
    padding: 0rem;
    position: fixed;
    bottom: 0;
    left: 0;
+   
    height: 72px;
    width: 100%;
+   
    
    font-family: Alegreya;
    font-size: 20px;

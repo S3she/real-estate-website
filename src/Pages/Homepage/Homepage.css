@@ -16,23 +16,23 @@ body{
 @media screen and (max-width:768px) {
     body {
         height: 812px;
-        padding-top: 100%;
+        padding-top: 70%;
 
     }
     .container{
         display: block;
-        text-align: center;
-        align-items: center;
-        margin: 0 auto;
+        max-width: 100%;
     }
     
     .eye-catcher-text{
         font-family: 'Baloo Bhaina 2';
         font-style: normal;
         font-weight: normal;
-        font-size: 13px;
+        font-size: 18px;
         line-height: 26px;
         color: #BD9B7B;
+        text-align: center;
+        position: relative;
     }
     
     .text-headline{
@@ -41,25 +41,27 @@ body{
         color: #000000;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         font-family: 'Playfair Display';
+        text-align: center;
+        position: relative;
     }
     
     .hero-text-homepage{
-        display: none;
+        display: block;
+        text-align: center;
+        position: relative;
     }
     
     .view-properties{
-        width: 40%;
-        display: flex;
-        align-items: center;
         list-style: none;
         font-style: normal;
         font-weight: normal;
-        font-size: 10px;
+        font-size: 1px;
         line-height: 20px;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
         color: #FFFFFF;
         font-family: 'Atkinson Hyperlegible';
-        padding: 5%;
+        text-align: center;
+        position: relative;
     }
 
 }
@@ -67,9 +69,9 @@ body{
     display: flex;
     flex-direction: column;
     width: 350px;
-    text-align: left;
-    margin-top: -35%;
-    margin-left: 15%;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 
@@ -89,30 +91,30 @@ body{
     color: #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: 'Playfair Display';
-    
+
 }
 
 .hero-text-homepage{
     font-family: 'Baloo Bhaina 2';
     font-style: normal;
     font-weight: normal;
-    font-size: 13px;
-    line-height: 15px;
+    font-size: 16px;
+    line-height: 16px;
     color: #000000;
-    padding-top: 1em;
+    padding-top: 2em;
     padding-bottom: 1em;
     background-color: none;
     width: 350px;
 }
 
 .view-properties{
-    width: 50%;
     display: flex;
     align-items: center;
     list-style: none;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
+    padding-top: 1rem;
     line-height: 20px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: #FFFFFF;

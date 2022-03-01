@@ -3,6 +3,7 @@
 .container{
     min-width: 70%;
     display: flex;
+    margin-top: -40%;
     justify-content: center;
     flex-direction: column;
 }
@@ -17,6 +18,8 @@
 }
 .hero-text{
     background-color: white;
+    margin-top: -20%;
+    margin-bottom: 30;
     padding-left: 10%;
     padding-right: 10%;
     margin-bottom: 300px;
@@ -27,6 +30,10 @@
 }
 .text-paragraph{
     padding-bottom: 2rem;
+   
+}
+.text-paragraph {
+    font-size: 17px;
 }
 
 .headline{
@@ -36,8 +43,9 @@
 
 .container img {
   
-    height: 60%;
-    width: 100%;
+    max-height: 90vh;
+    overflow: hidden;
+    height: auto;
  
   }
 

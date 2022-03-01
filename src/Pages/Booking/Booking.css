@@ -1,21 +1,11 @@
 
-
-.boxbox{
+.boxen{
     display: flex;
     flex-direction: column;
     width: 1150px;
     text-align: center;
-    margin-top: -45%;
+    margin-top: -25%;
     margin-bottom: 30%;
     margin-left: 15%;
-}
-
-.text-paragraphtree {
-
-      position: absolute;
-width: 1087px;
-height: 569px;
-
-background: #FBF4F4;
 
 }

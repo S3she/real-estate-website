@@ -10,11 +10,11 @@ function Services() {
     {/* <div className="homes2-img">
     <img style={imageStyle} src={commercialImage}/>
     </div> */}
-    <div className="hero-text">        
-        <div className="headline">
+    <div className="text-paragraphh">        
+        <div className="headlinetwo">
             
         </div>
-        <div className="text-paragraph">
+        <div className="text-paragraphtree">
          
 
          OUR SERVICES

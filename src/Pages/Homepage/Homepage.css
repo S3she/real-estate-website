@@ -43,7 +43,7 @@ body{
         font-family: 'Playfair Display';
     }
     
-    .hero-text{
+    .hero-text-homepage{
         display: none;
     }
     
@@ -78,7 +78,7 @@ body{
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
-    line-height: 26px;
+    line-height: 76px;
     color: #BD9B7B;
 }
 
@@ -91,7 +91,7 @@ body{
     
 }
 
-.hero-text{
+.hero-text-homepage{
     font-family: 'Baloo Bhaina 2';
     font-style: normal;
     font-weight: normal;
@@ -101,10 +101,7 @@ body{
     padding-top: 1em;
     padding-bottom: 1em;
     background-color: none;
-    
- 
-
-    
+    width: 350px;
 }
 
 .view-properties{

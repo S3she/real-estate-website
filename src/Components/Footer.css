@@ -2,15 +2,16 @@
     background-color: #BEA38A;
     
    margin-top: 0.2rem;
-   padding: rem;
+   padding: 0rem;
    position: fixed;
    bottom: 0;
    left: 0;
+   height: 72px;
    width: 100%;
    
    font-family: Alegreya;
    font-size: 20px;
-   line-height: 33px;
+   line-height: 23px;
    align-items: center;
    text-align: center;
    letter-spacing: 0.08em;

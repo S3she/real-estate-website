@@ -10,7 +10,7 @@ const Nav = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
 
     const navStyle = {
-        color: 'white',
+        color: 'black',
         textDecoration: 'none',
     };
 

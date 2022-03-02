@@ -10,6 +10,10 @@
     margin-top: -40%;
 }
 
+.homes-image{
+  
+}
+
 .homes-title{
     display: none;
     background-color: #8d857f;
@@ -17,16 +21,7 @@
     height: 42px; 
 }
 
-.homes-for-sale{
-    font-family: 'Playfair Display';
-    background-color: #8d857f;
-    width: 30%;
-    padding: 1rem;
-    height: 10%;
-    list-style: none;
-    color: #FFFFFF;
-    
-}
+
 
 .homes-status{
     display: none;

@@ -3,43 +3,79 @@ import './Homes.css';
 import image from './ralph-ravi-kayden-2d4lAQAlbDA-unsplash.jpg'
 import imagetwo from './house-isolated-field.jpg'
 import imagetree from './todd-kent-178j8tJrNlc-unsplash.jpg'
-import imagefour from './3d-rendering-large-modern-contemporary-house-wood-concrete.jpg'
+import imagefour from './3d-rendering-large-modern-contemporary-house-wood-concrete.jpg'            
+
+/*<img style={imagePosition} src={image}/>
+<img style={imagePosition} src={imagetwo}/>
+<img style={imagePosition} src={imagetree}/>
+<img style={imagePosition} src={imagefour}/>*/
+
+
 const Homes = () => {
 
     const imagePosition = {
         width: '430px',
-        marginLeft: '7rem'
-            
+        height: '272px'
     };
 
 
   return (
-    <div className="box">
-        
+    <div className="flex-box-homes">
+      <div className="homes-title">
+        <div className="homes-for-sale">HOMES FOR SALE</div>
+    </div>
 
-              
-      
-        <div className="hero-text">     
-        
- 
+    <div className="top-flex-box">
+      <div className="homes-ad">
+              <div className="homes-image">
+                <img style={imagePosition} src={image}/>
+                <div className="homes-status">Future Sale</div>
+              </div>
+            <div className="city-of-ad">GÖTEBORG</div>
+            <div className="house-name-ad">Lake Maggiore Waterfront</div>
+            <div className="house-info-ad">4 500 000 kr 160kvm Villa</div>
 
-        
-            <div className="headline">
-
-            <img style={imagePosition} src={image}/>
-            <img style={imagePosition} src={imagetwo}/>
-            <img style={imagePosition} src={imagetree}/>
-            <img style={imagePosition} src={imagefour}/>
-            
             </div>
-            <div className="vitRektangel">
-
-               
-
-
-            </div>          
+      <div className="homes-ad">
+        <div className="homes-image">
+        <img style={imagePosition} src={imagetwo}/>
+          <div className="homes-status">Future Sale</div>
         </div>
-        
+      <div className="city-of-ad">GÖTEBORG</div>
+      <div className="house-name-ad">Lane Bridge Road </div>
+      <div className="house-info-ad">4 500 000 kr 160kvm Villa</div>
+      </div>
+            
+
+    </div>
+      
+    <div className="bottom-flex-box">
+    
+
+            <div className="homes-ad">
+              <div className="homes-image">
+              <img style={imagePosition} src={imagetree}/>
+                <div className="homes-status">Future Sale</div>
+              </div>
+            <div className="city-of-ad">GÖTEBORG</div>
+            <div className="house-name-ad">Lake Maggiore Waterfront</div>
+            <div className="house-info-ad">4 500 000 kr 160kvm Villa</div>
+
+            </div>
+
+            <div className="homes-ad">
+              <div className="homes-image">
+              <img style={imagePosition} src={imagefour}/>
+                <div className="homes-status">Future Sale</div>
+              </div>
+            <div className="city-of-ad">GÖTEBORG</div>
+            <div className="house-name-ad">Lake Maggiore Waterfront</div>
+            <div className="house-info-ad">4 500 000 kr 160kvm Villa</div>
+
+            </div>
+    </div>
+      
+      
     </div>
   )
 }

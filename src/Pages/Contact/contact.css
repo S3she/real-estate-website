@@ -24,7 +24,7 @@
 
    .bigText {
 
-    font-size: larger;
+    font-size:medium;
     text-align: justify;
     margin-left: 10%;
     height: 10%;
@@ -56,16 +56,17 @@ color: #000000;
    .text-paragraphtwo{
 
     margin-bottom: 30%;
-    height: -30%;
+    height: -60%;
 
 
    }
 
    .paragraphtree {
 
-    margin-bottom: 40%;
+
+    margin-bottom: -20%;
     margin-right: 30%;
-    height: fit-content ;
+    height: 90% ;
 
    }
 

@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 .container{
-    min-width: 70%;
+    min-width: 60%;
     display: flex;
     margin-top: -40%;
     justify-content: center;
     flex-direction: column;
+    padding-left: 30%;
 }
 
 @media screen and (max-width:768px){

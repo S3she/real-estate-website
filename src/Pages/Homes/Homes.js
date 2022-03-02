@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 import './Homes.css';
 import image from './ralph-ravi-kayden-2d4lAQAlbDA-unsplash.jpg'
 import imagetwo from './house-isolated-field.jpg'
@@ -9,7 +10,7 @@ import imagefour from './3d-rendering-large-modern-contemporary-house-wood-concr
 <img style={imagePosition} src={imagetwo}/>
 <img style={imagePosition} src={imagetree}/>
 <img style={imagePosition} src={imagefour}/>*/
-
+import ReusableButton from '../../Components/ReusableButton';
 
 const Homes = () => {
 
@@ -18,10 +19,17 @@ const Homes = () => {
         height: '272px'
     };
 
+  //   const navStyle = {
+  //     color: 'white',
+  //     textDecoration: 'none',
+  // };
 
   return (
     <div className="flex-box-homes">
       <div className="homes-title">
+
+      {/* <li className="properties"><Link style={navStyle}><ReusableButton>Homes:     Göteborg</ReusableButton></Link></li>
+         */}
         <div className="homes-for-sale">HOMES FOR SALE</div>
     </div>
 

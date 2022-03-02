@@ -2,6 +2,7 @@ import React from 'react'
 import "./Homepage.css";
 import ReusableButton from '../../Components/ReusableButton';
 import {Link} from 'react-router-dom';
+import Footer from '../../Components/Footer';
  
  export default function HomePage() {
   const navStyle = {
@@ -9,7 +10,6 @@ import {Link} from 'react-router-dom';
     textDecoration: 'none',
 };
    return (
-     
      <div className='container'>
        <div className='eye-catcher-text'>VIEW THE EXTRAORDINARY</div>
        <div className='text-headline'>Homes in Gothenburg</div>
@@ -19,3 +19,4 @@ import {Link} from 'react-router-dom';
      </div>
    )
  }
+

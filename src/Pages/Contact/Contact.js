@@ -30,12 +30,7 @@ return (
        
           <div className='text-paragraphtwo'>
 
-          Your Luxury Real Estate Experience Christie’s International Real Estate provides an exceptional level 
-        of client service, integrity, and passionate expertise for your international luxury real estate needs.
-         We offer incomparable service to a global clientele at the luxury end of the residential property market.
-          Our accomplished real estate professionals provide industry experience, international reach with local knowledge,
-           and personalized attention to unique property requirements. 
-
+        
           </div>
          
 
@@ -51,7 +46,7 @@ return (
 
 
           <div className='Contact'>
-           <h1 className='text-center'>ContactForm</h1>
+           <h1 className='text-center'></h1>
            <ContactForm />
          </div>
      

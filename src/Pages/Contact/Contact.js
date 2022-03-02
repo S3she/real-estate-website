@@ -1,5 +1,6 @@
 import React from 'react'
 import './contact.css';
+import ContactForm from '../../Components/ContactForm';
 
 
 
@@ -9,13 +10,10 @@ const contact = () => {
 
  
 return (
-  <div className="boxtree"> 
+  <div className="boxThree"> 
     <div className="homes-img">
-    {/* <img style={imageStyle} src={commercialImage}/> */}
+   
     </div>
-    {/* <div className="homes2-img">
-    <img style={imageStyle} src={commercialImage}/>
-    </div> */}
     <div className="hero-text">        
         <div className="headline">
 
@@ -23,7 +21,13 @@ return (
             
         </div>
         <div className="text-paragraph">
-        Your Luxury Real Estate Experience
+
+
+          <div className='bigText' >
+
+          Your Luxury Real Estate Experience
+          </div>
+       
           <div className='text-paragraphtwo'>
 
           Your Luxury Real Estate Experience Christie’s International Real Estate provides an exceptional level 
@@ -31,14 +35,6 @@ return (
          We offer incomparable service to a global clientele at the luxury end of the residential property market.
           Our accomplished real estate professionals provide industry experience, international reach with local knowledge,
            and personalized attention to unique property requirements. 
-
-
-
-
-
-
-
-
 
           </div>
          
@@ -52,6 +48,12 @@ return (
 
 
           </div>
+
+
+          <div className='Contact'>
+           <h1 className='text-center'>ContactForm</h1>
+           <ContactForm />
+         </div>
      
         
   

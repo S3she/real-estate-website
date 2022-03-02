@@ -15,6 +15,7 @@ import Contact from './Pages/Contact/Contact';
 
 
 
+
 function App() {
   return (
     <Router>
@@ -25,17 +26,17 @@ function App() {
           <Route path="/" exact element={<HomePage />} />
           <Route path="/About" element={<About />} />
           <Route path="/Homes" element={<Homes/>} />
+         
           <Route path="/Services" element={<Services/>} />
           <Route path="/Blog" element={<Blog/>} />
-          <Route path="/Contact" element={<Contact/>} /> 
-      
-        
-
+          <Route path="/Contact" element={<Contact/>} />
         
         </Routes>
         <Footer />
       </div>
     </Router>
+
+    
  );
 }
 export default App;

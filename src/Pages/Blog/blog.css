@@ -2,10 +2,10 @@
 
 .box{
     display: flex;
-    flex-direction: column;
-    width: 1150px;
-    text-align: center;
-    margin-top: -25%;
-    margin-bottom: 30%;
+    justify-content: center;
+    background-color: white;
     margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 10rem;
+    margin-top: -40%;
 }

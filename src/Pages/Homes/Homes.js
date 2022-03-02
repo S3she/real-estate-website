@@ -26,12 +26,7 @@ const Homes = () => {
 
   return (
     <div className="flex-box-homes">
-      <div className="homes-title">
-
-      {/* <li className="properties"><Link style={navStyle}><ReusableButton>Homes:     Göteborg</ReusableButton></Link></li>
-         */}
-        <div className="homes-for-sale">HOMES FOR SALE</div>
-    </div>
+    <div className="homes-for-sale">HOMES FOR SALE</div>
 
     <div className="top-flex-box">
       <div className="homes-ad">

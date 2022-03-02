@@ -27,12 +27,11 @@ const Homes = () => {
   return (
     <div className="flex-box-homes">
 
-     {/* <div className="top-flex-button"> 
+     <div className="top-flex-button"> 
       <div className="box-title-button">
         <div className="homes-for-sale">HOMES FOR SALE</div>
       </div>
-
-      </div> */}
+      </div> 
 
     <div className="top-flex-box">
       <div className="homes-ad">
@@ -88,6 +87,7 @@ const Homes = () => {
     </div>
   )
 }
+
 export default Homes;
 
 

@@ -10,14 +10,19 @@
     margin-top: -40%;
 }
 
+.top-flex-button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100rem;
+}
+
 .homes-title{
     display: none;
-    background-color: #8d857f;
     width: 402px;
     height: 42px; 
 }
 
-.homes-for-sale{
+homes-for-sale{
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -25,8 +30,8 @@
 .box-title-button {
     font-family: 'Playfair Display';
     background-color: #8d857f;
-    /* width: 40%;
-    height: 20%; */
+    width: 70%;
+    height: 70%;
     padding: 1rem;
     color: #FFFFFF;
 }

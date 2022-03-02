@@ -9,7 +9,7 @@ const contact = () => {
 
  
 return (
-  <div className="boxtree">
+  <div className="boxtree"> 
     <div className="homes-img">
     {/* <img style={imageStyle} src={commercialImage}/> */}
     </div>
@@ -35,13 +35,13 @@ return (
 
 
 
-           
+
 
 
 
 
           </div>
-
+         
 
           <div className='paragraphtree'>
 
@@ -52,9 +52,9 @@ return (
 
 
           </div>
-
+     
         
-      
+  
         </div>
     </div>
     
@@ -62,3 +62,4 @@ return (
 )
 }
 export default contact;
+ 

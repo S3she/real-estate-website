@@ -9,7 +9,7 @@ const Homes = () => {
     const imagePosition = {
         width: '430px',
         marginLeft: '7rem'
-        
+            
     };
 
 
@@ -37,7 +37,7 @@ const Homes = () => {
                
 
 
-            </div>
+            </div>          
         </div>
         
     </div>

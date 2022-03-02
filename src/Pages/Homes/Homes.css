@@ -18,14 +18,17 @@
 }
 
 .homes-for-sale{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.box-title-button {
     font-family: 'Playfair Display';
     background-color: #8d857f;
-    width: 30%;
+    /* width: 40%;
+    height: 20%; */
     padding: 1rem;
-    height: 10%;
-    list-style: none;
     color: #FFFFFF;
-    
 }
 
 .homes-status{

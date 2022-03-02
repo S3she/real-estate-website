@@ -6,10 +6,8 @@ nav{
   align-items: center;
   min-height: 10vh;
   color: black;
-  position: fixed; /* Set the navbar to fixed position */
-
+  position: absolute;
   width: 100%; /* Full width */
-
   top: 0;
   left: -4%;
   right: 0;
@@ -124,7 +122,6 @@ cursor: pointer;
     min-height: 10vh;
     position: fixed;
     color: white;
-    background-color: #8d857f;
     top: 0;
     left: 0;
     right: 0;

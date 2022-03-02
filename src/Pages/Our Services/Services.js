@@ -11,7 +11,7 @@ function Services() {
     <img style={imageStyle} src={commercialImage}/>
     </div> */}
     <div className="text-paragraphh">        
-        <div className="headlinetwo">
+    
             
         </div>
         <div className="text-paragraphtree">
@@ -22,7 +22,7 @@ function Services() {
         </div>
     </div>
     
-</div>
+
   )
 }
 

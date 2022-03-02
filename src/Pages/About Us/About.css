@@ -31,7 +31,6 @@
 .about-text-paragraph{
     padding-bottom: 2rem;
     font-size: 17px;
-   
 }
 
 .about-headline{
@@ -40,8 +39,8 @@
 }
 
 .container img {
-  
-    max-height: 86.3vh;
+
+    max-height: 96.5vh;
     overflow: hidden;
     height: auto;
  

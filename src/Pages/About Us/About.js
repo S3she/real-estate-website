@@ -5,12 +5,13 @@ import commercialImage from './jimmy-dean-Qngdf0kgGB4-unsplash.jpg'
 const About = () => {
 
     const imageStyle = {
+       
     };
 
   return (
     <div className="container">
     <img style={imageStyle} src={commercialImage}/>
-        <div className="about-text">        
+        <div className="about-text">
             <div className="about-headline">
                 REAL ESTATE GOTHENBURG
             </div>
@@ -34,7 +35,7 @@ const About = () => {
                 Your dream, our vision
             </div>
         </div>
-        
+
     </div>
   )
 }

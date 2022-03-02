@@ -41,7 +41,7 @@ const Homes = () => {
               </div>
             <div className="city-of-ad">GÖTEBORG</div>
             <div className="house-name-ad">Lake Maggiore Waterfront</div>
-            <div className="house-info-ad">4 500 000 kr 160kvm Villa</div>
+            <div className="house-info-ad">8 500 000 kr 160kvm Villa</div>-
 
             </div>
       <div className="homes-ad">
@@ -51,7 +51,7 @@ const Homes = () => {
         </div>
       <div className="city-of-ad">GÖTEBORG</div>
       <div className="house-name-ad">Lane Bridge Road </div>
-      <div className="house-info-ad">4 500 000 kr 160kvm Villa</div>
+      <div className="house-info-ad">10 500 000 kr 156kvm Villa</div>
       </div>
             
 
@@ -65,11 +65,15 @@ const Homes = () => {
               <img style={imagePosition} src={imagetree}/>
                 <div className="homes-status">Future Sale</div>
               </div>
+
+              
             <div className="city-of-ad">GÖTEBORG</div>
             <div className="house-name-ad">Lake Maggiore Waterfront</div>
-            <div className="house-info-ad">4 500 000 kr 160kvm Villa</div>
+            <div className="house-info-ad">20 500 000 kr 170kvm Villa</div>
 
             </div>
+
+            
 
             <div className="homes-ad">
               <div className="homes-image">
@@ -78,16 +82,31 @@ const Homes = () => {
               </div>
             <div className="city-of-ad">GÖTEBORG</div>
             <div className="house-name-ad">Lake Maggiore Waterfront</div>
-            <div className="house-info-ad">4 500 000 kr 160kvm Villa</div>
+
+
+
+         
+            <div className="house-info-ad">18 650 000 kr 140kvm Villa</div>
 
             </div>
+
     </div>
       
-      
     </div>
+
+
+
+
+
   )
 }
+
+
 export default Homes;
+
+
+
+
 
 
 

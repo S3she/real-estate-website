@@ -25,7 +25,7 @@ body{
        
        
         display: block;
-        
+        max-width: 100%;
     }
     
     .eye-catcher-text{
@@ -73,7 +73,7 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 340px;
     text-align: center;
     align-items: center;
     margin: 0 auto;

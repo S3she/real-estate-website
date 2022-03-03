@@ -10,16 +10,20 @@
     margin-top: -40%;
 }
 
-
-
 .homes-title{
     display: none;
-    background-color: #8d857f;
     width: 402px;
     height: 42px; 
 }
 
-
+.box-title-button {
+    font-family: 'Playfair Display';
+    background-color: #8d857f;
+    width: 70%;
+    height: 70%;
+    padding: 1rem;
+    color: #FFFFFF;
+}
 
 .homes-status{
     display: none;

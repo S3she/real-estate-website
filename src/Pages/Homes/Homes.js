@@ -1,16 +1,14 @@
 import React from "react";
-import {Link} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
 import './Homes.css';
 import image from './ralph-ravi-kayden-2d4lAQAlbDA-unsplash.jpg'
 import imagetwo from './house-isolated-field.jpg'
 import imagetree from './todd-kent-178j8tJrNlc-unsplash.jpg'
 import imagefour from './3d-rendering-large-modern-contemporary-house-wood-concrete.jpg'            
 
-/*<img style={imagePosition} src={image}/>
-<img style={imagePosition} src={imagetwo}/>
-<img style={imagePosition} src={imagetree}/>
-<img style={imagePosition} src={imagefour}/>*/
-import ReusableButton from '../../Components/ReusableButton';
+import FeedbackItem from "../../Components/FeedbackItem";
+import FeedbackData from "../Data/FeedbackData";
+
 
 const Homes = () => {
 
@@ -19,18 +17,20 @@ const Homes = () => {
         height: '272px'
     };
 
-  //   const navStyle = {
-  //     color: 'white',
-  //     textDecoration: 'none',
-  // };
+    <div className="image-display">
+        {FeedbackData.cardData.map((item) => {
+          return (
+              <FeedbackItem key={item.id} img={item.img} title={item.title} text={item.text} Link={`/Booking/${item.id}`} />
+              
+                 )
+            })
+        } 
+    </div> 
+    
 
   return (
-    
-   
+
     <div className="flex-box-homes">
-      
-    
-   
 
     <div className="top-flex-box">
       <div className="homes-ad">
@@ -101,7 +101,6 @@ const Homes = () => {
 
   )
 }
-
 
 export default Homes;
 

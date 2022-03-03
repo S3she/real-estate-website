@@ -1,8 +1,6 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import "./index.css";
-
-
 
 import HomePage from './Pages/Homepage/HomePage';
 import Footer from './Components/Footer';
@@ -14,9 +12,20 @@ import Blog from './Pages/Blog/Blog';
 import Contact from './Pages/Contact/Contact';
 
 
+import { v4 as uuidv4 } from "uuid";
+
+import FeedbackList from './Components/FeedbackList';
+import FeedbackData from './Pages/Data/FeedbackData';
+import Booking from './Pages/Booking/Booking';
+
+
 
 
 function App() {
+
+  const [feedback, setFeedback] = useState(FeedbackData);
+
+
   return (
     <Router>
       <div className="app">
@@ -28,10 +37,23 @@ function App() {
           <Route path="/Homes" element={<Homes/>} />
          
           <Route path="/Services" element={<Services/>} />
-          <Route path="/Blog" element={<Blog/>} />
+          <Route path="/Blog" element={<Blog/>} / >
           <Route path="/Contact" element={<Contact/>} />
+
         
         </Routes>
+
+        <div className="container">
+          <Routes>
+            <Route path="/Booking" element={
+                <>
+                  <FeedbackList feedback={feedback} />
+                </>
+            }/>
+            <Route path="/Booking" element={<Booking />} />
+          </Routes>
+        </div>
+
         <Footer />
       </div>
     </Router>
@@ -40,5 +62,9 @@ function App() {
  );
 }
 export default App;
+
+
+
+
 
 

@@ -1,10 +1,10 @@
 import FeedbackItem from '../Components/FeedbackItem';
 
-const FeedbackList = ({feedback}) => {
+const FeedbackList = (item) => {
 
     return (
         <div className="feedback-list">
-            {feedback.map((item) => (
+            {item.map((item) => (
             <FeedbackItem key={item.id} item={item} />
             ))}
         </div>

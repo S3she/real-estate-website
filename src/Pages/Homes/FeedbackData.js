@@ -4,10 +4,7 @@ import imagetree from './todd-kent-178j8tJrNlc-unsplash.jpg'
 import imagefour from './3d-rendering-large-modern-contemporary-house-wood-concrete.jpg'   
 
 
-
-
-const FeedbackData = {
-    cardData:[
+const FeedbackData = [
         {
             id: 1,
             img: image,
@@ -32,7 +29,6 @@ const FeedbackData = {
             title: 'Title 4',
             text: "Lorem ipsum"
         },
-    ]
-};
+];
 
 export default FeedbackData;

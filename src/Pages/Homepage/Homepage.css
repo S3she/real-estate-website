@@ -14,6 +14,67 @@ body{
     overflow-x: hidden;
 }
 
+.homeP-container{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 40%;
+    margin-top: -36%;
+    justify-content: center;
+    
+}
+
+.eye-catcher-text{
+    font-family: 'Baloo Bhaina 2';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 76px;
+    color: #292222;
+}
+
+.text-headline{
+    font-family: Playfair Display;
+    font-size: 30px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Playfair Display';
+
+}
+
+.hero-text-homepage{
+    font-family: 'Baloo Bhaina 2';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+
+    line-height: 20px;
+    color: #000000;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    background-color: none;
+    width: 400px;
+
+}
+
+.view-properties{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    padding-top: 1rem;
+    line-height: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    font-family: 'Atkinson Hyperlegible';
+}
+
+
 
 @media screen and (max-width:768px) {
     body {
@@ -68,60 +129,4 @@ body{
         text-align: center;
         position: relative;
     }
-
-}
-.container{
-    display: flex;
-    flex-direction: column;
-    width: 340px;
-    text-align: center;
-    align-items: center;
-    margin: 0 auto;
-}
-
-
-
-.eye-catcher-text{
-    font-family: 'Baloo Bhaina 2';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 76px;
-    color: #292222;
-}
-
-.text-headline{
-    font-family: Playfair Display;
-    font-size: 26px;
-    color: #000000;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: 'Playfair Display';
-
-}
-
-.hero-text-homepage{
-    font-family: 'Baloo Bhaina 2';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 16px;
-    color: #000000;
-    padding-top: 2em;
-    padding-bottom: 1em;
-    background-color: none;
-    width: 350px;
-}
-
-.view-properties{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    padding-top: 1rem;
-    line-height: 20px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    color: #FFFFFF;
-    font-family: 'Atkinson Hyperlegible';
 }

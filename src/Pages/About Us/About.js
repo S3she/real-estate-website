@@ -9,7 +9,7 @@ const About = () => {
     };
 
   return (
-    <div className="container">
+    <div className="about-container">
     <img style={imageStyle} src={commercialImage}/>
         <div className="about-text">
             <div className="about-headline">

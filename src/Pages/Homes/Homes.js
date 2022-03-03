@@ -12,12 +12,17 @@ import FeedbackList from "../../Components/FeedbackList";
 
 
 
+
+
+
 const Homes = () => {
 
     const imagePosition = {
         width: '430px',
         height: '272px'
     };
+
+    
 
 
     <div className="image-display">
@@ -28,10 +33,12 @@ const Homes = () => {
                  )
             })
         } 
-    </div> 
-    
+    </div>
+
 
   return (
+
+    
 
     <div className="flex-box-homes">
 
@@ -91,6 +98,11 @@ const Homes = () => {
             <div className="house-info-ad">25 650 000 kr 140kvm Villa</div>
             <button className="buttonH" onClick={() => Link={FeedbackData}}>
             View House</button>
+
+            <script>
+
+              
+            </script>
             </div>
       </div>     
     </div>

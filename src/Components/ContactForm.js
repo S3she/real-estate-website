@@ -107,7 +107,7 @@ const ContactForm = () => {
                     {errors.email && (
                       <span className='errorMessage'>Please enter a valid email address</span>
                     )}
-                  </div>
+                  </div>                  
                 </div>
                 {/* Row 2 of form */}
                 <div className='row formRow'>
@@ -152,10 +152,10 @@ const ContactForm = () => {
                 <button className='submit-btn' disabled={disabled} type='submit'>
 
                   Submit
-                </button>
+                </button>    
               </form>
             </div>
-            <ToastContainer />
+            <ToastContainer /> 
           </div>
         </div>
       </div>

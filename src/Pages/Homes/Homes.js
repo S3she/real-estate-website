@@ -7,7 +7,7 @@ import imagetree from './todd-kent-178j8tJrNlc-unsplash.jpg'
 import imagefour from './3d-rendering-large-modern-contemporary-house-wood-concrete.jpg'            
 
 import FeedbackItem from "../../Components/FeedbackItem";
-import FeedbackData from "../Data/FeedbackData";
+import FeedbackData from "./FeedbackData";
 
 
 const Homes = () => {

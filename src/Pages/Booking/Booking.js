@@ -8,7 +8,7 @@ import FeedbackList from "../../Components/FeedbackList";
 const Booking = () => {
   return (
 
-    {/*<div className="homes-ad">
+    <div className="homes-ad">
       <div className="homes-image">
          <img src={`/Booking/${item.id}`}/>
 
@@ -19,7 +19,7 @@ const Booking = () => {
       </div>
     <div className="house-name-ad">{FeedbackList.title}</div>
     <div className="house-info-ad">{FeedbackList.text}</div>- 
-  </div>*/}
+  </div>
   )
 }
 export default Booking;

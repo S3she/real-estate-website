@@ -33,6 +33,7 @@ const Homes = () => {
     <div className="flex-box-homes">
 
     <div className="top-flex-box">
+    <h1 className="Title">Houses for Sale</h1>
       <div className="homes-ad">
               <div className="homes-image">
                 <img style={imagePosition} src={image}/>
@@ -44,6 +45,7 @@ const Homes = () => {
             <button className="buttonH" onClick={() => Link={FeedbackData}}>
             View House</button>
             </div>
+            
       <div className="homes-ad">
         <div className="homes-image">
         <img style={imagePosition} src={imagetwo}/>

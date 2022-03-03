@@ -60,7 +60,7 @@
 }
 
 .bottom-flex-box{
-    padding-top: 10rem;
+    padding-top: 8.5rem;
     margin-left: 2rem;
     font-family: 'Playfair Display';
 }
@@ -78,6 +78,14 @@
     margin-top: -5%;
   }
 
+  .Title {
+    margin-top: -30%;
+    padding-bottom: 3.7rem;
+    font-family: 'Playfair Display';
+    font-size: 200%;
+    color: #534b45;
+    padding-left: 0.2%;
+  }
 
 
 

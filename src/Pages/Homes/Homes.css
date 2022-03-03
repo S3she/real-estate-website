@@ -10,21 +10,10 @@
     margin-top: -40%;
 }
 
-.top-flex-button {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 100rem;
-}
-
 .homes-title{
     display: none;
     width: 402px;
     height: 42px; 
-}
-
-homes-for-sale{
-    margin-left: 15%;
-    margin-right: 15%;
 }
 
 .box-title-button {
@@ -75,4 +64,8 @@ homes-for-sale{
     margin-left: 2rem;
     font-family: 'Playfair Display';
 }
+
+
+
+
 

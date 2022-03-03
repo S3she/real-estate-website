@@ -2,20 +2,52 @@
 
 .boxbox{
     display: flex;
-    flex-direction: column;
-    width: 1150px;
-    text-align: center;
-    margin-top: -45%;
-    margin-bottom: 30%;
+    justify-content: center;
+    background-color: white;
     margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 30rem;
+    margin-top: -40%;
+
+
 }
 
-.text-paragraphtree {
+.textOverall {
+text-align: center;
+position: relative;
+margin: auto !important;
+display: block;
 
-      position: absolute;
-width: 1087px;
-height: 569px;
 
-background: #FBF4F4;
+
+}
+
+.textSecond{
+
+    text-align: center;
+position: relative;
+margin: auto !important;
+display: block;
+
+    
+}
+
+.bigHero {
+
+    text-align: center;
+    position: relative;
+    margin: auto !important;
+    display: block;
+
+}
+
+
+.NumberThree{
+
+    text-align: center;
+position: relative;
+margin: auto !important;
+display: block;
+
 
 }

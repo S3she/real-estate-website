@@ -6,11 +6,6 @@ import imagetwo from './house-isolated-field.jpg'
 import imagetree from './todd-kent-178j8tJrNlc-unsplash.jpg'
 import imagefour from './3d-rendering-large-modern-contemporary-house-wood-concrete.jpg'            
 
-/*<img style={imagePosition} src={image}/>
-<img style={imagePosition} src={imagetwo}/>
-<img style={imagePosition} src={imagetree}/>
-<img style={imagePosition} src={imagefour}/>*/
-import ReusableButton from '../../Components/ReusableButton';
 
 const Homes = () => {
 
@@ -27,11 +22,11 @@ const Homes = () => {
   return (
     <div className="flex-box-homes">
 
-     <div className="top-flex-button"> 
+     {/* <div className="top-flex-button"> 
       <div className="box-title-button">
         <div className="homes-for-sale">HOMES FOR SALE</div>
       </div>
-      </div> 
+      </div>  */}
 
     <div className="top-flex-box">
       <div className="homes-ad">

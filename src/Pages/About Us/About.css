@@ -21,6 +21,28 @@
         flex-direction: column;
         
     }
+
+    .container img {
+
+        width: 83%;
+        overflow: hidden;
+        height: auto;
+     
+      }
+
+.about-text{
+
+    max-width: 83%;
+    background-color: white;
+    margin-top: -30%;
+    margin-bottom: 30;
+  
+    margin-bottom: 200px;
+    font-size: 12px;
+    font-family: 'Playfair Display';
+    line-height: 2px;
+
+}
 }
 .about-text{
     max-width: 83%;
@@ -53,4 +75,8 @@
     height: auto;
  
   }
+
+
+
+
 

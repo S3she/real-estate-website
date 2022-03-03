@@ -20,8 +20,8 @@ const Homes = () => {
     <div className="image-display">
         {FeedbackData.cardData.map((item) => {
           return (
-              <FeedbackItem key={item.id} img={item.img} title={item.title} text={item.text} Link={`/Booking/${item.id}`} />
-              
+              <Link><li className='view-properties'>FeedbackItem key={item.id} img={item.img} title={item.title} text={item.text} Link={`/Booking/${item.id}`}</li></Link>
+   
                  )
             })
         } 

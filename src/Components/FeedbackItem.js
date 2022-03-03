@@ -1,11 +1,11 @@
 import { useState } from "react";
-import FeedbackData from "../Pages/Data/FeedbackData";
+import FeedbackData from "../Pages/Homes/FeedbackData";
 
 
 const FeedbackItem = ({item}) => {
-    const [img, setImg] = useState();
-    const [title, setTitle] = useState("Testing");
-    const [text, setText] = useState("Test");
+    const [img, setImg] = useState(img);
+    const [title, setTitle] = useState(title);
+    const [text, setText] = useState(text);
 
     return (
         <div className="card">

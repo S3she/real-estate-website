@@ -15,7 +15,7 @@ import Contact from './Pages/Contact/Contact';
 import { v4 as uuidv4 } from "uuid";
 
 import FeedbackList from './Components/FeedbackList';
-import FeedbackData from './Pages/Data/FeedbackData';
+import FeedbackData from './Pages/Homes/FeedbackData';
 import Booking from './Pages/Booking/Booking';
 
 

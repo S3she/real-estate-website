@@ -1,5 +1,6 @@
 import React from 'react'
 import './contact.css';
+import ContactForm from '../../Components/ContactForm';
 
 
 
@@ -9,13 +10,10 @@ const contact = () => {
 
  
 return (
-  <div className="boxtree"> 
+  <div className="boxThree"> 
     <div className="homes-img">
-    {/* <img style={imageStyle} src={commercialImage}/> */}
+   
     </div>
-    {/* <div className="homes2-img">
-    <img style={imageStyle} src={commercialImage}/>
-    </div> */}
     <div className="hero-text">        
         <div className="headline">
 
@@ -23,35 +21,50 @@ return (
             
         </div>
         <div className="text-paragraph">
-        Your Luxury Real Estate Experience
+
+
+          <div className='bigText' >
+
+          Advertise Property on LuxuryRealEstate.com
+Want to list properties on LuxuryRealEstate.com? 
+To do so you must be a member of Who’s Who in Luxury Real Estate, 
+our international network of brokers. For details about membership, 
+please review our Media Kit and complete the Membership Application when you are ready to apply.
+
+Need a Broker?
+Buying or selling a luxury home? We have contacts all over the world and we would be happy to recommend a real estate professional to suit your needs.
+Web Support for Current Members
+Are you a member experiencing issues? Members can visit our online Help Desk to find answers to frequently asked questions about using LuxuryRealEstate.com.
+
+Call Us
+Toll Free : 800.488.4066
+International: +1 206.695.4838
+
+Message Us
+Please complete the form on the right and tell us how we can assist you otherwise.
+        
+        
+          
+          </div>
+       
           <div className='text-paragraphtwo'>
 
-          Your Luxury Real Estate Experience Christie’s International Real Estate provides an exceptional level 
-        of client service, integrity, and passionate expertise for your international luxury real estate needs.
-         We offer incomparable service to a global clientele at the luxury end of the residential property market.
-          Our accomplished real estate professionals provide industry experience, international reach with local knowledge,
-           and personalized attention to unique property requirements. 
-
-
-
-
-
-
-
-
-
+        
           </div>
          
 
           <div className='paragraphtree'>
 
-          Contact us for customized information and to be matched with the appropriate specialist for your 
-           specific real estate needs. Or contact us by phone at the numbers below. London Office:
-            + 44 20 3824 1951 New York Office: +1 646 960 3305 / +1 877 745 5574 (toll free)
-             Hong Kong Office: +852 5808 7680 Property above: Lake Maggiore Waterfront Villa with Private Dock
+
 
 
           </div>
+
+
+          <div className='Contact'>
+           <h1 className='text-center'></h1>
+           <ContactForm />
+         </div>
      
         
   

@@ -20,6 +20,7 @@ import Booking from './Pages/Booking/Booking';
 
 
 
+
 function App() {
 
   const [feedback, setFeedback] = useState(FeedbackData);
@@ -34,9 +35,11 @@ function App() {
           <Route path="/" exact element={<HomePage />} />
           <Route path="/About" element={<About />} />
           <Route path="/Homes" element={<Homes/>} />
+         
           <Route path="/Services" element={<Services/>} />
-          <Route path="/Blog" element={<Blog/>} />
-          <Route path="/Contact" element={<Contact/>} /> 
+          <Route path="/Blog" element={<Blog/>} / >
+          <Route path="/Contact" element={<Contact/>} />
+
         
         </Routes>
 
@@ -54,6 +57,8 @@ function App() {
         <Footer />
       </div>
     </Router>
+
+    
  );
 }
 export default App;

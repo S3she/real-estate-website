@@ -38,9 +38,13 @@ const Homes = () => {
                 <img style={imagePosition} src={image}/>
                 <div className="homes-status">Future Sale</div>
               </div>
+
+              
             <div className="city-of-ad">ASKIM</div>
             <div className="house-name-ad">Nyproducerad Villa i Askim</div>
-            <div className="house-info-ad">25 500 000 kr 160kvm Villa</div>-
+            <div className="house-info-ad">25 500 000 kr 160kvm Villa</div>
+            
+            
 
             </div>
       <div className="homes-ad">
@@ -57,6 +61,7 @@ const Homes = () => {
     </div>
       
     <div className="bottom-flex-box">
+   
     
 
             <div className="homes-ad">
@@ -82,13 +87,14 @@ const Homes = () => {
             <div className="city-of-ad">GÖTEBORG</div>
             <div className="house-name-ad">Ny Produktion Linné</div>
             <div className="house-info-ad">25 650 000 kr 140kvm Villa</div>
+            
 
             </div>
 
     </div>
       
     </div>
-
+    
 
 
 

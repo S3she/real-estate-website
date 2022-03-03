@@ -7,8 +7,6 @@
   }
 
 
-
-
 .flex-box-booking{
     display: flex;
     justify-content: center;
@@ -19,10 +17,6 @@
     margin-top: -40%;
 }
 
-
-
-
-
 body {
   font-family: "Poppins", sans-serif;
   background-color: #1b2a3e;
@@ -32,12 +26,6 @@ body {
 
 ul {
   list-style: none;
-}
-
-.container {
-  max-width: 768px;
-  margin: auto;
-  padding: 0 20px;
 }
 
 header {

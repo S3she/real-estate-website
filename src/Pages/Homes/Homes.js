@@ -9,6 +9,10 @@ import imagefour from './3d-rendering-large-modern-contemporary-house-wood-concr
 import FeedbackItem from "../../Components/FeedbackItem";
 import FeedbackData from "./FeedbackData";
 
+import { useParams } from "react-router-dom";
+import FeedbackList from "../../Components/FeedbackList";
+
+
 
 const Homes = () => {
 
@@ -17,10 +21,11 @@ const Homes = () => {
         height: '272px'
     };
 
+
     <div className="image-display">
         {FeedbackData.map((item) => {
           return (
-              <li><FeedbackData key={item.id} img={item.img} title={item.title} text={item.text} onClick={`/Booking/${item}`} /></li>
+              <li><FeedbackList key={item.id} img={item.img} title={item.title} text={item.text} onClick={`/Booking/${item}`} /></li>
 
                  )
             })

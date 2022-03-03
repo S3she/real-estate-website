@@ -65,6 +65,19 @@
     font-family: 'Playfair Display';
 }
 
+.buttonH {
+    padding: 0.2rem;
+    padding-right: 0.4rem;
+    font-size: 16px;
+    background-color: white;
+    color: #8d857f;
+    border-radius: 30px;
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 10%;
+    margin-top: -5%;
+  }
+
 
 
 

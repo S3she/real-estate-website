@@ -1,11 +1,17 @@
-
-
-.box{
+.blogContainer{
     display: flex;
-    justify-content: center;
     background-color: white;
-    margin-left: 15%;
-    margin-right: 15%;
-    padding-bottom: 10rem;
+    width: 904px;
+    height: 1104px;
+    margin: 0 auto;
     margin-top: -40%;
+}
+
+.addPostComponent{
+    display: flex;
+    margin-left: 500px;
+}
+
+.newPostContainer{
+    background-color: gray;
 }

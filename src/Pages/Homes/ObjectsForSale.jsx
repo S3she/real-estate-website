@@ -73,11 +73,12 @@ const ObjectsForSale = ({ objects }) => {
       Filtrera
     </Button>
   );
+
   return (
-    <div className="container-sm">
-      <div className="row justify-content-center align-content-center mb-4">
-        <div className="col-auto d-flex flex-column justify-content-center align-content-center">
-          <h2 className="text-center">Våra lediga bostäder</h2>
+    <>
+    
+        <div className="container">
+          <h2 className="text-center ">Våra lediga bostäder</h2>
           <p className="text-center fs-5">
             Redo för nästa steg i livet? Funderar du på att flytta?
             <br />
@@ -85,7 +86,7 @@ const ObjectsForSale = ({ objects }) => {
             med bostadslån.
           </p>
         </div>
-      </div>
+      
       <div className="container-sm d-flex justify-content-center mb-4">
         {open}
       </div>
@@ -96,7 +97,7 @@ const ObjectsForSale = ({ objects }) => {
           </div>
         ))}
       </div>
-    </div>
+    </>
   );
 };
 

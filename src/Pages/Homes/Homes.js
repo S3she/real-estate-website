@@ -1,6 +1,6 @@
 import React from "react";
 import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
-import './Homes.css';
+//import './Homes.css';
 import image from './ralph-ravi-kayden-2d4lAQAlbDA-unsplash.jpg'
 import imagetwo from './house-isolated-field.jpg'
 import imagetree from './todd-kent-178j8tJrNlc-unsplash.jpg'

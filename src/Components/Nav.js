@@ -1,13 +1,18 @@
 import React, { useState } from 'react';
 import {Link} from 'react-router-dom';
-import bootstrap from 'bootstrap';
+
 import "./Nav.css";
 import ReusableButton from './ReusableButton';
 import logga from './logga.png'
-import { hover } from '@testing-library/user-event/dist/hover';
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+
 
 const Nav = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
+
+
 
     const navStyle = {
         color: 'black',

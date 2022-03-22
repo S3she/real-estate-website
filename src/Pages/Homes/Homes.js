@@ -1,6 +1,6 @@
 import React from "react";
 import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
-import './Homes.css';
+//import './Homes.css';
 import image from './ralph-ravi-kayden-2d4lAQAlbDA-unsplash.jpg'
 import imagetwo from './house-isolated-field.jpg'
 import imagetree from './todd-kent-178j8tJrNlc-unsplash.jpg'
@@ -9,10 +9,6 @@ import imagefour from './3d-rendering-large-modern-contemporary-house-wood-concr
 import FeedbackItem from "../../Components/FeedbackItem";
 import FeedbackData from "./FeedbackData";
 import FeedbackList from "../../Components/FeedbackList";
-
-
-
-
 
 
 const Homes = () => {
@@ -26,10 +22,9 @@ const Homes = () => {
 
 
     <div className="image-display">
-        {FeedbackData.map((item) => {
+        {FeedbackItem.map((feedback) => {
           return (
-              <li><FeedbackList key={item.id} img={item.img} title={item.title} text={item.text} onClick={`/Booking/${item}`} /></li>
-              
+              <li><FeedbackList key={feedback.id} img={feedback.img} title={feedback.title} text={feedback.text} onClick={`/Booking/${feedback}`}/></li>
                  )
             })
         } 
@@ -52,7 +47,7 @@ const Homes = () => {
             <div className="city-of-ad">ASKIM</div>
             <div className="house-name-ad">Nyproducerad Villa i Askim</div>
             <div className="house-info-ad">25 500 000 kr 160kvm Villa</div>
-            <button className="buttonH" onClick={() => Link={FeedbackData}}>
+            <button className="buttonH" onClick={() => Link={image}}>
             View House</button>
             </div>
             
@@ -64,7 +59,7 @@ const Homes = () => {
       <div className="city-of-ad">GÖTEBORG </div>
       <div className="house-name-ad">Nyproduktion Göteborg Centrum </div>
       <div className="house-info-ad">16 500 000 kr 156kvm Villa</div>
-      <button className="buttonH" onClick={() => Link={FeedbackData}}>
+      <button className="buttonH" onClick={() => Link={FeedbackList}}>
       View House</button>
       </div>
   
@@ -82,7 +77,7 @@ const Homes = () => {
             <div className="city-of-ad">GÖTEBORG</div>
             <div className="house-name-ad">Ny Produktion Göteborg Centrum</div>
             <div className="house-info-ad">17 500 000 kr 170kvm Villa</div>
-            <button className="buttonH" onClick={() => Link={FeedbackData}}>
+            <button className="buttonH" onClick={() => Link={FeedbackList}}>
             View House</button>
             </div>
 
@@ -96,7 +91,7 @@ const Homes = () => {
             <div className="city-of-ad">GÖTEBORG</div>
             <div className="house-name-ad">Ny Produktion Linné</div>
             <div className="house-info-ad">25 650 000 kr 140kvm Villa</div>
-            <button className="buttonH" onClick={() => Link={FeedbackData}}>
+            <button className="buttonH" onClick={() => Link={FeedbackList}}>
             View House</button>
 
             <script>

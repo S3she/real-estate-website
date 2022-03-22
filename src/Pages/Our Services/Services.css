@@ -12,6 +12,9 @@
     margin-top: -40%;
     font-family: Playfair Display;
     display: flexbox;
+    flex-direction: column;
+    padding-top: 37%;
+    
 }
 
 .textOverall {

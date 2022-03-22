@@ -1,77 +1,83 @@
-import React, { useState } from 'react';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import React, {useEffect, useState } from 'react';
+
 import "./index.css";
+import { v4 as uuidv4 } from "uuid";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+
 
 import HomePage from './Pages/Homepage/HomePage';
 import Footer from './Components/Footer';
 import About from './Pages/About Us/About';
 import Nav from "./Components/Nav";
-import Homes from './Pages/Homes/Homes';
 import Services from './Pages/Our Services/Services';
-import Blog from './Pages/Blog/Blog';
-import Contact from './Pages/Contact/Contact';
+
+import ContactUs from './Pages/Contact/ContactUs';
+import ObjectsForSale from './Pages/Homes/ObjectsForSale';
+import ObjectPage from './Pages/Homes/ObjectPage';
 
 
-import { v4 as uuidv4 } from "uuid";
+import data from "./data/objects.json";
+import Blogg from './Pages/Blog/Blogg';
 
-import FeedbackList from './Components/FeedbackList';
-import FeedbackData from './Pages/Homes/FeedbackData';
-import Booking from './Pages/Booking/Booking';
+
+
+
+
 
 
 
 
 function App() {
 
-  const [feedback, setFeedback] = useState(FeedbackData);
+  const [objects, setObjects] = useState([]);
+
+
+  useEffect(() => {
+    setObjects(
+      data.objects.map((object) => {
+        return { ...object, id: uuidv4() };
+      })
+    );
+  }, []);
+
+  
 
 
   return (
-    <Router>
-      <div className="app">
-        
-        <Nav /> 
+    <BrowserRouter>
+     
+      <main id="main" className="container-fluid main p-2 p-md-5">
+      <Nav />
         <Routes>
-          <Route path="/" exact element={<HomePage />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Homes" element={<Homes/>} />
-         
-          <Route path="/Services" element={<Services/>} />
-          <Route path="/Blog" element={<Blog/>} / >
-          <Route path="/Contact" element={<Contact/>} />
-
-        
+          <Route exact path="/" element={<HomePage />} />
+          <Route path="/about" element={<About />} />
+          <Route
+            path="/Homes"
+            element={<ObjectsForSale objects={objects} />}
+          />
+          <Route
+            path="Homes/:id"
+            element={<ObjectPage objects={objects} />}
+          />
+          <Route path="/services" element={<Services />} />
+          <Route path="/blog" element={<Blogg />} />
+          <Route path="/contact" element={<ContactUs />} />
         </Routes>
-
-        <div className="container">
-          <Routes>
-            <Route path="/Booking" element={
-                <>
-                  <FeedbackList feedback={feedback} />
-                </>
-            }/>
-            <Route path="/Booking" element={<Booking />} />
-          </Routes>
-        </div>
-
-        <Footer />
-      </div>
-    </Router>
-
-    
- );
+      </main>
+      <Footer />
+    </BrowserRouter>
+  );
 }
+
 export default App;
 
-
-
-{/* <Route path="Booking/*" element={
-            <FeedbackList feedback={feedback} />   
-          }/>
-            <Route path="Booking/*" element={<Booking />} />
   
-        <Footer /> */}
-
-
-
-
+  
+  
+  
+  
+  
+  
+  
+ 

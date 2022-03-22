@@ -19,6 +19,7 @@ import Footer from '../../Components/Footer';
         </div>
        <li className='view-properties'><Link style={navStyle} to="/Homes"><ReusableButton>View our Properties</ReusableButton></Link></li>
      </div>
+     
    )
  }
 

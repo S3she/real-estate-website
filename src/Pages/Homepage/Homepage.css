@@ -8,11 +8,11 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
-    padding-top: 50%;
-    height: 152px;
+    padding-top: 10%;
+    
     margin: 0;
     overflow-x: hidden;
-}
+} 
 
 .homeP-container{
     display: flex;
@@ -22,8 +22,12 @@ body{
     align-items: center;
     margin: 0 auto;
     max-width: 40%;
-    margin-top: -36%;
+    margin-top: -50%;
     justify-content: center;
+
+    
+    padding-top: 60%;
+    padding-bottom: 2rem;
     
 }
 

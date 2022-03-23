@@ -1,9 +1,8 @@
 import { useState } from "react";
-import { Link, useParams } from "react-router-dom";
 import FeedbackData from "../Pages/Homes/FeedbackData";
 
 
-const FeedbackItem = (item) => {
+const FeedbackItem = (feedback) => {
     const [id, setID] = useState(id);
     const [img, setImg] = useState(img);
     const [title, setTitle] = useState(title);

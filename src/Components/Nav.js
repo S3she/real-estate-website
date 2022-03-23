@@ -5,8 +5,7 @@ import "./Nav.css";
 import ReusableButton from './ReusableButton';
 import logga from './logga.png'
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+
 
 
 const Nav = () => {
@@ -44,7 +43,7 @@ const Nav = () => {
 
         {/* <div> */}
         <div className="nav-small-screen">
-            <i class="bi bi-list 8xl" style={iconStyle}  fontSize={27} onClick={() => setToggleMenu(true)}></i>
+            <i className="bi bi-list 8xl" style={iconStyle}  fontSize={27} onClick={() => setToggleMenu(true)}></i>
             </div>
             
             {toggleMenu && (

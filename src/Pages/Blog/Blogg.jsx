@@ -123,15 +123,16 @@ function Blogg() {
         trigger={buttonPopup}
         setTrigger={setButtonPopup}
       ></CreateBlogg>
-      <div className="row mb-4">
-        <h1>Läs nyheter från bostadsmarkanden</h1>
+      <div className="text-center fs-5">
+        <h1>Blogg portalen</h1>
+        <p className="row mb-4">Senaste inläggen</p>
       </div>
       {articles.map((article, index) => (
         <Section
           key={index}
           className={"section-grey row row-cols-1 row-cols-md-2 mb-4 p-3"}
         >
-          <div className="col-md-4">
+          <div className="row-md-4">
             <img className="blogg-pic img-fluid" src={article.url} alt="" />
           </div>
           <div className="col-md-8 mt-3 mt-md-0">
@@ -142,7 +143,7 @@ function Blogg() {
         </Section>
       ))}
       <Section className={"section-grey row row-cols-1 row-cols-md-2 mb-4 p-4"}>
-        <div className="col-md-4">
+        <div className="row mb-4">
           <img
             className="blogg-pic img-fluid"
             src="/images/Towers.jpg"
@@ -162,7 +163,7 @@ function Blogg() {
         </div>
       </Section>
       <Section className={"section-grey row row-cols-1 row-cols-md-2 mb-4 p-4"}>
-        <div className="col-md-4">
+        <div className="row-md-4">
           <img
             className="blogg-pic img-fluid"
             src="/images/Greece.jpg"
@@ -182,7 +183,7 @@ function Blogg() {
         </div>
       </Section>
       <Section className={"section-grey row row-cols-1 row-cols-md-2 mb-4 p-4"}>
-        <div className="col-md-4">
+        <div className="row-md-4">
           <img
             className="blogg-pic img-fluid"
             src="/images/Castle2.jpg"

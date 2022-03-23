@@ -2,11 +2,13 @@ import React from "react";
 import './About.css';
 import commercialImage from './jimmy-dean-Qngdf0kgGB4-unsplash.jpg'
 
+
 const About = () => {
 
     const imageStyle = {
-       
+
     };
+
 
   return (
     <div className="about-container">
@@ -35,7 +37,6 @@ const About = () => {
                 Your dream, our vision
             </div>
         </div>
-
     </div>
   )
 }

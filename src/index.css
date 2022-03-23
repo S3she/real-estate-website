@@ -11,14 +11,7 @@
   word-break: break-word;
 }
 
-/* body {
-  font-family: "Maven Pro", Arial, Helvetica, sans-serif;
-  background-color: #fffffe !important;
-  color: #000000 !important;
-  font-size: 1rem;
-  
-} */
-
+p,
 h1,
 h2,
 h3,
@@ -28,7 +21,7 @@ h6,
 header,
 footer,
 button {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family: 'Playfair Display';
 }
 
 
@@ -94,7 +87,7 @@ footer > div > p {
 
 .section-grey {
   background-color: rgba(211, 211, 211, 0.75);
-  border-radius: 15px;
+  
 }
 
 .btn-icon {
@@ -105,16 +98,16 @@ footer > div > p {
 
 .btn-primary {
   transition-duration: 0.4s !important;
-  background-color: #baa360 !important;
-  border: 1px solid #baa360 !important;
+  background-color: #8d857f !important;
+  border: 1px solid #8d857f !important;
 }
 
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:visited,
 .btn-primary:focus {
-  background-color: #baa360 !important;
-  border: 1px solid #baa360 !important;
+  background-color: #8d857f !important;
+  border: 1px solid #8d857f !important;
   box-shadow: none !important;
   outline: 0 !important;
 }
@@ -122,7 +115,7 @@ footer > div > p {
 .btn-primary:hover {
   background-color: #fffffe !important;
   color: #000000 !important;
-  border: 1px solid #baa360 !important;
+  border: 1px solid #8d857f !important;
 }
 
 .btn-dark:hover {
@@ -134,7 +127,6 @@ footer > div > p {
 
 .contact-form {
   background-color: #d3d3d3;
-  border-radius: 15px;
 }
 
 .form-control:focus {
@@ -175,7 +167,6 @@ footer > div > p {
 
 .login-container {
   background-color: #d3d3d3;
-  border-radius: 5px;
 }
 
 .blogg-pic {

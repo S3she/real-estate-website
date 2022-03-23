@@ -71,18 +71,18 @@ const ContactUs = () => {
           <div className="row row-cols-1 row-cols-md-3 justify-content-center align-content-center">
             <Section className={"col d-flex flex-column"}>
               <FontAwesomeIcon icon={faMapLocationDot} className="fa-3x mb-3" />
-              <p className="text-center">Real Estate AB Huvudkontor</p>
-              <p className="text-center">Kungsholmsgatan 31, 104 20 Göteborg</p>
+              <p style={{color:"white"}} className="text-center">Real Estate AB Huvudkontor</p>
+              <p style={{color:"white"}} className="text-center">Kungsholmsgatan 31, 104 20 Göteborg</p>
             </Section>
             <Section className={"col d-flex flex-column"}>
-              <FontAwesomeIcon icon={faPhone} className="fa-3x mb-3" />
-              <p className="text-center">Real Estate AB Huvudkontor</p>
-              <p className="text-center">08-65 45 21 00</p>
+              <FontAwesomeIcon icon={faPhone} style={{color:"white"}} className="fa-3x mb-3" />
+              <p style={{color:"white"}} className="text-center">Real Estate AB Huvudkontor</p>
+              <p style={{color:"white"}} className="text-center">08-65 45 21 00</p>
             </Section>
             <Section className={"col d-flex flex-column"}>
-              <FontAwesomeIcon icon={faEnvelope} className="fa-3x mb-3" />
-              <p className="text-center">Real Estate AB Huvudkontor</p>
-              <p className="text-center">info@realestate.se</p>
+              <FontAwesomeIcon icon={faEnvelope} style={{color:"white"}} className="fa-3x mb-3" />
+              <p style={{color:"white"}} className="text-center">Real Estate AB Huvudkontor</p>
+              <p style={{color:"white"}} className="text-center">info@realestate.se</p>
             </Section>
           </div>
         </div>

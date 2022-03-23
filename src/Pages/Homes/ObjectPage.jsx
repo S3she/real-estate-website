@@ -72,7 +72,7 @@ const ObjectPage = ({ objects }) => {
   }, []);
 
   const onClick = () => {
-    navigate("/forsale");
+    navigate("/homes");
   };
 
   return (

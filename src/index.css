@@ -1,15 +1,10 @@
-
-
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
 
 * {
-
-  padding-top: 20rem;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   word-wrap: break-word;
-
   word-break: break-word;
 }
 
@@ -32,8 +27,10 @@ button {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
-
-
+#root {
+  background-color: #baa360;
+  overflow: auto;
+}
 
 header {
   background-color: #d3d3d3;
@@ -74,10 +71,15 @@ header {
   text-decoration: underline !important;
 }
 
+.main {
+  background-color: #fffffe !important;
+
+}
+
+
 
 
 .main-image {
-
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -87,7 +89,7 @@ header {
 footer {
   background-color: #d3d3d3 !important;
   font-size: 1rem;
-
+  margin-bottom: 5px;
 }
 
 footer > div > p {
@@ -171,7 +173,7 @@ footer > div > p {
 }
 
 .card-img-top {
-  max-width: 50%;
+  max-width: 100%;
   height: auto;
   max-height: 15rem;
 }
@@ -202,12 +204,4 @@ footer > div > p {
   .about-image {
     max-width: 100%;
   }
-
-  .main {
-    margin-top: -50%;
-  }
-
-
-
-  
 }

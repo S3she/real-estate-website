@@ -30,7 +30,7 @@ function Blogg() {
 
   const handleLoginSubmit = (e) => {
     e.preventDefault();
-    if (login.userName === "admin" && login.password === "password") {
+    if (login.userName === "Isabella" && login.password === "Lösenord") {
       setLogin({
         userName: "",
         password: "",

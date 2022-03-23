@@ -11,20 +11,6 @@
   
 }
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-header,
-footer,
-button {
-  font-family: 'Playfair Display';
-}
-
-
 header {
   background-color: #d3d3d3;
   margin-top: 5px;
@@ -45,6 +31,11 @@ header {
   outline: 0 !important;
 }
 
+
+.nav-link:hover {
+  text-decoration: underline !important;
+}
+
 .navbar-toggler:hover,
 .navbar-toggler:active,
 .navbar-toggler:visited,
@@ -54,19 +45,25 @@ header {
   outline: 0 !important;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+footer,
+button {
+  font-family: 'Playfair Display';
+}
+
+
 .nav-link {
   letter-spacing: 1px !important;
   text-transform: uppercase !important;
   color: #000000 !important;
 }
-
-.nav-link:hover {
-  text-decoration: underline !important;
-}
-
-
-
-
 
 .main-image {
   background-repeat: no-repeat;
@@ -160,6 +157,15 @@ footer > div > p {
   border-color: #baa360;
 }
 
+.create-article {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.about-image {
+  max-width: 50rem;
+}
+
 .card-img-top {
   max-width: 100%;
   height: auto;
@@ -175,14 +181,6 @@ footer > div > p {
   max-height: 25rem;
 }
 
-.create-article {
-  max-width: 75rem;
-  margin: 0 auto;
-}
-
-.about-image {
-  max-width: 50rem;
-}
 
 @media only screen and (max-width: 767px) {
   #nav-container {

@@ -17,8 +17,6 @@ import ObjectsForSale from './Pages/Homes/HomesForSale';
 function App() {
 
   const [objects, setObjects] = useState([]);
-
-
   useEffect(() => {
     setObjects(
       data.objects.map((object) => {

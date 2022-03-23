@@ -14,7 +14,7 @@ import Footer from '../../Components/Footer';
        <div className='eye-catcher-text'>VIEW THE EXTRAORDINARY</div>
        <div className='text-headline'>Homes in Gothenburg</div>
        <div className='hero-text-homepage'>
-        Welcome to us on Real Estate Gothenburg.
+        Welcome to Real Estate Gothenburg.
         The place where you will find your dream home. <br />We provide worldclass services.
         </div>
        <li className='view-properties'><Link style={navStyle} to="/Homes"><ReusableButton>View our Properties</ReusableButton></Link></li>

@@ -36,7 +36,7 @@ const About = () => {
             And trust us; We know the market
             </div>
             <div className="about-text-paragraph">
-                Your dream, our visionnpm 
+                Your dream, our vision 
             </div>
         </div>
     </div>

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import Button from "../Blog/Button.jsx";
 import ObjectCard from "./HomesRouting.jsx";
-import Filter from "../../Components/Filter.js";
+import Filter from "./FilterColumn.js";
 
 const ObjectsForSale = ({ objects }) => {
   const [objectsToDisplay, setObjectsToDisplay] = useState(objects);

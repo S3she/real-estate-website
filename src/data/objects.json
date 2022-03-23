@@ -2,7 +2,7 @@
 
     "objects": [
       {
-        "image": "/ralph-ravi-kayden-2d4lAQAlbDA-unsplash.jpg",
+        "image": "/images/todd-kent-178j8tJrNlc-unsplash.jpg",
         "address": "Kungsgatan 46, Göteborg",
         "price": "4995000",
         "rooms": "4",
@@ -15,7 +15,7 @@
         ]
       },
       {
-        "image": "/house-isolated-field.jpg",
+        "image": "/images/house-isolated-field.jpg",
         "address": "Skolgatan 9, Göteborg",
         "price": "2795000",
         "rooms": "2",
@@ -28,7 +28,7 @@
         ]
       },
       {
-        "image": "/todd-kent-178j8tJrNlc-unsplash.jpg",
+        "image": "/images/todd-kent-178j8tJrNlc-unsplash.jpg",
         "address": "Vasagatan 54, Göteborg",
         "price": "6995000",
         "rooms": "5",
@@ -41,7 +41,7 @@
         ]
       },
       {
-        "image": "/3d-rendering-large-modern-contemporary-house-wood-concrete.jpg",
+        "image": "/images/3d-rendering-large-modern-contemporary-house-wood-concrete.jpg",
         "address": "Tellgrensgatan 15, Göteborg",
         "price": "1950000",
         "rooms": "1",
@@ -54,7 +54,7 @@
         ]
       },
       {
-        "image": "/graphics/marla-prusik-5q1KnUjtjaM-unsplash(1).jpg",
+        "image": "/images/3d-rendering-large-modern-contemporary-house-wood-concrete.jpg",
         "address": "Monsungatan 33, Göteborg",
         "price": "5995000",
         "rooms": "3",
@@ -67,7 +67,7 @@
         ]
       },
       {
-        "image": "/graphics/r-architecture-2gDwlIim3Uw-unsplash(1).jpg",
+        "image": "/images/3d-rendering-large-modern-contemporary-house-wood-concrete.jpg",
         "address": "Videlundsgatan 4, Göteborg",
         "price": "11495000",
         "rooms": "7",

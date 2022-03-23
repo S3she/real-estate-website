@@ -12,7 +12,7 @@ const ObjectCard = ({ object }) => {
 
   return (
     <div className="card h-100 mx-auto">
-      <img src={image} alt="" className="card-img-top" />
+      <img src={image} alt="house" className="card-img-top" />
       <div className="card-body">
         <h5 className="card-title mb-2">{address}</h5>
       </div>

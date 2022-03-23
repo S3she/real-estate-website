@@ -20,11 +20,11 @@ function CreateBlogg(props) {
         </Button>
       </div>
       <div className="row">
-        <h3 className="text-center">Skapa nytt inlägg</h3>
+        <h3 className="text-center">Create a new post</h3>
       </div>
       <form className="" onSubmit={props.submit}>
         <label className="form-label mb-2" htmlFor="title">
-          Rubrik
+          Headline
         </label>
         <input
           className="form-control mb-4"
@@ -35,7 +35,7 @@ function CreateBlogg(props) {
           onChange={handleChange}
         />
         <label className="form-label mb-2" htmlFor="text">
-          Information
+          Content
         </label>
         <textarea
           className="form-control mb-4"
@@ -47,7 +47,7 @@ function CreateBlogg(props) {
           onChange={handleChange}
         ></textarea>
         <label className="form-label mb-2" htmlFor="url">
-          Bild URL
+          Image URL
         </label>
         <input
           className="form-control mb-4"
@@ -56,7 +56,7 @@ function CreateBlogg(props) {
           value={props.data.url}
           onChange={handleChange}
         />
-        <Button className="btn btn-primary btn-lg">Skapa inlägg</Button>
+        <Button className="btn btn-primary btn-lg">Create post</Button>
       </form>
     </div>
   ) : null;

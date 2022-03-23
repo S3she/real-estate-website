@@ -3,9 +3,10 @@ import { useNavigate, useParams } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRotateLeft } from "@fortawesome/free-solid-svg-icons";
 import { v4 as uuidv4 } from "uuid";
-
 import BookingForm from "../../Components/BookingForm";
 import Button from "../Blog/Button";
+
+
 
 const ObjectPage = ({ objects }) => {
   const params = useParams();
@@ -81,17 +82,17 @@ const ObjectPage = ({ objects }) => {
         <div className="col-lg-1">
           <Button className={"btn-icon"} type={"button"} onClick={onClick}>
             <FontAwesomeIcon icon={faRotateLeft} className="fa-2x" />
-            <div>Tillbaka</div>
+            <div>Return</div>
           </Button>
         </div>
         <div className="col-lg-6 mb-2">
           <img src={object.image} alt="apartment" className="img-fluid" />
           <div className="mt-2">
             <h4>{object.address}</h4>
-            <h5>Pris: {object.price} kr</h5>
-            <h5>Rum: {object.rooms}</h5>
-            <h5>Badrum: {object.bathrooms}</h5>
-            <h5>Boarea: {object.area} kvm</h5>
+            <h5>Price: {object.price} kr</h5>
+            <h5>Rooms: {object.rooms}</h5>
+            <h5>Bathrooms: {object.bathrooms}</h5>
+            <h5>Living area: {object.area} kvm</h5>
             {text.map((paragraph, index) => (
               <p key={index}>{paragraph}</p>
             ))}

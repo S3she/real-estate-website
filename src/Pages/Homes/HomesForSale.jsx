@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 import Button from "../Blog/Button.jsx";
-import ObjectCard from "./ObjectCard.jsx";
+import ObjectCard from "./HomesRouting.jsx";
 import Filter from "../../Components/Filter.js";
 
 const ObjectsForSale = ({ objects }) => {
@@ -70,7 +70,7 @@ const ObjectsForSale = ({ objects }) => {
       type={"button"}
       onClick={openCloseFilter}
     >
-      Filtrera
+      Filter
     </Button>
   );
 
@@ -78,12 +78,9 @@ const ObjectsForSale = ({ objects }) => {
     <>
     
         <div className="container">
-          <h2 className="text-center ">Våra lediga bostäder</h2>
+          <h2 className="text-center ">Homes for sale</h2>
           <p className="text-center fs-5">
-            Redo för nästa steg i livet? Funderar du på att flytta?
-            <br />
-            Ta en titt på våra lediga bostäder. Kom ihåg att vi kan hjälpa dig
-            med bostadslån.
+            Take a look at our newest houses and apartments for sale on the market. 
           </p>
         </div>
       

@@ -5,7 +5,6 @@ import Section from "./Section";
 import Button from "./Button";
 import Login from "./Login";
 import CreateBlogg from "./Createblog";
-import "./blog.css";
 
 function Blogg() {
   const [login, setLogin] = useState({
@@ -38,7 +37,7 @@ function Blogg() {
       setIsLoggedIn(true);
       setLoginMessage("");
     } else {
-      setLoginMessage("Felaktigt användarnamn eller lösenord");
+      setLoginMessage("Wrong Password or Username");
     }
   };
 
@@ -74,7 +73,7 @@ function Blogg() {
           className="btn btn-primary btn-lg"
           onClick={() => setButtonPopup(true)}
         >
-          Skapa Artikel
+          Create a post
         </Button>
       </div>
       <div className="col-auto">
@@ -85,7 +84,7 @@ function Blogg() {
             setButtonPopup(false);
           }}
         >
-          Logga ut
+          Sign out
         </Button>
       </div>
     </div>
@@ -124,8 +123,8 @@ function Blogg() {
         setTrigger={setButtonPopup}
       ></CreateBlogg>
       <div className="text-center fs-5">
-        <h1>Blogg portalen</h1>
-        <p className="row mb-4">Senaste inläggen</p>
+        <h1>The blog portal</h1>
+        <p className="row mb-4">Latest posts</p>
       </div>
       {articles.map((article, index) => (
         <Section
@@ -138,7 +137,7 @@ function Blogg() {
           <div className="col-md-8 mt-3 mt-md-0">
             <h3>{article.title}</h3>
             <p>{article.text}</p>
-            <Button className="btn btn-primary btn-lg">Läs mer</Button>
+            <Button className="btn btn-primary btn-lg">Read more</Button>
           </div>
         </Section>
       ))}
@@ -151,15 +150,14 @@ function Blogg() {
           />
         </div>
         <div className="col-md-8 mt-3 mt-md-0">
-          <h3>Vacker utsikt men höga priser</h3>
+          <h3>What can we expect in the future? </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-            suscipit pretium arcu ut sollicitudin. Proin non lorem est. Sed
-            tempus nulla nulla. Sed tempor velit ut facilisis ullamcorper. Ut
-            iaculis velit vitae enim rhoncus luctus id rutrum nisl. Sed sed sem
-            blandit, elementum orci ut, ullamcorper lacus.
+          The future of real estate will involve an increased focus on added features, 
+          like roof access, common areas, and even designated workspaces. 
+          Investors operating multifamily properties may see these changes as early as this year, 
+          though they will only continue to evolve.
           </p>
-          <Button className="btn btn-primary btn-lg">Läs mer</Button>
+          <Button className="btn btn-primary btn-lg">Read more</Button>
         </div>
       </Section>
       <Section className={"section-grey row row-cols-1 row-cols-md-2 mb-4 p-4"}>
@@ -171,15 +169,14 @@ function Blogg() {
           />
         </div>
         <div className="col-md-8 mt-3 mt-md-0">
-          <h3>Vart i Grekland ska jag köpa bostad?</h3>
+          <h3>Why Investing in Real Estate Post-COVID Is Still a Good Idea</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-            suscipit pretium arcu ut sollicitudin. Proin non lorem est. Sed
-            tempus nulla nulla. Sed tempor velit ut facilisis ullamcorper. Ut
-            iaculis velit vitae enim rhoncus luctus id rutrum nisl. Sed sed sem
-            blandit, elementum orci ut, ullamcorper lacus.
+          The pandemic brought many uncertainties with it—and not just for investors.
+           With shelter-at-home orders in force throughout the country,
+            many people were confined to their homes, unable to go to the office, 
+            visit friends or family, make a quick trip to the grocery store, or take their planned vacations.
           </p>
-          <Button className="btn btn-primary btn-lg">Läs mer</Button>
+          <Button className="btn btn-primary btn-lg">Read more</Button>
         </div>
       </Section>
       <Section className={"section-grey row row-cols-1 row-cols-md-2 mb-4 p-4"}>
@@ -191,15 +188,13 @@ function Blogg() {
           />
         </div>
         <div className="col-md-8 mt-3 mt-md-0">
-          <h3>Har du någonsin velat äga ett slott?</h3>
+          <h3>The new gothenburg?</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-            suscipit pretium arcu ut sollicitudin. Proin non lorem est. Sed
-            tempus nulla nulla. Sed tempor velit ut facilisis ullamcorper. Ut
-            iaculis velit vitae enim rhoncus luctus id rutrum nisl. Sed sed sem
-            blandit, elementum orci ut, ullamcorper lacus.
+          At the Qvillestaden apartment building, Bornstein Lyckefors 
+          have reinterpreted a genuine Gothenburg building type, namely the 
+          so-called landshövdingehus (literally governor’s house) that marks the old dockworkers’ district at Herkulesgatan. 
           </p>
-          <Button className="btn btn-primary btn-lg">Läs mer</Button>
+          <Button className="btn btn-primary btn-lg">Read more</Button>
         </div>
       </Section>
     </div>

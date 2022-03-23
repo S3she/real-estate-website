@@ -18,23 +18,25 @@ const About = () => {
                 REAL ESTATE GOTHENBURG
             </div>
             <div className="about-text-paragraph">
-                På Real Estate möts du av mäklare som är serviceinriktade, 
-                målinriktade och extremt drivna i yrket. Vi jobbar individuellt efter var 
-                kunds specifika krav och vi är inte nöjda förrän du är nöjd.
+              
+                At Real Estate, you are met by brokers who are service-oriented,
+                goal-oriented and extremely driven in the profession. We work individually according to where
+                customer's specific requirements and we are not satisfied until you are satisfied.
             </div>
             <div className="about-text-paragraph">
-                För oss finns inga gränser. Vi säljer överallt där objekten finns såväl i Sverige som utomlands.
+               
+            For us, there are no boundaries. We sell everywhere where the items are both in Sweden and abroad.
             </div>
             <div className="about-text-paragraph">
-                Efter lång erfarenhet med många år i yrket borgar Real Estate för god kvalitet. 
-                Vi har energin och vi tar mötet med kunden som en utmaning för att verkligen förstå och skapa trygghet i processen. 
-                Våra återkommande kunder är det ultimata kvittot på att vi lyckats.
+            After long experience with many years in the profession, Real Estate guarantees good quality.
+                We have the energy and we take the meeting with the customer as a challenge to really understand and create security in the process.
+                Our returning customers are the ultimate proof that we have succeeded.
             </div>
             <div className="about-text-paragraph">
-                Och lita på oss; marknaden kan vi.
+            And trust us; We know the market
             </div>
             <div className="about-text-paragraph">
-                Your dream, our vision
+                Your dream, our visionnpm 
             </div>
         </div>
     </div>

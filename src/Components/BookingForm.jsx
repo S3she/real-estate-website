@@ -7,10 +7,10 @@ const BookingForm = (props) => {
 
   return (
     <div className="container-sm">
-      <h2 className="text-center">Boka vising</h2>
+      <h2 className="text-center">Book a viewing</h2>
       <form className="contact-form p-3" onSubmit={props.submit}>
         <label className="form-label mb-1" htmlFor="firstName">
-          Förnamn
+          First name
         </label>
         <input
           className="form-control mb-4"
@@ -20,7 +20,7 @@ const BookingForm = (props) => {
           onChange={handleChange}
         />
         <label className="form-label mb-1" htmlFor="lastName">
-          Efternamn
+          Surname
         </label>
         <input
           className="form-control mb-4"
@@ -30,7 +30,7 @@ const BookingForm = (props) => {
           onChange={handleChange}
         />
         <label className="form-label mb-1" htmlFor="date">
-          Datum
+          Date
         </label>
         <input
           className="form-control mb-4"
@@ -50,7 +50,7 @@ const BookingForm = (props) => {
           onChange={handleChange}
         />
         <label className="form-label mb-1" htmlFor="phone">
-          Telefon
+          Phone number
         </label>
         <input
           className="form-control mb-4"
@@ -60,10 +60,10 @@ const BookingForm = (props) => {
           onChange={handleChange}
         />
         <Button className="btn btn-primary btn-lg" type="submit">
-          Boka
+          Book
         </Button>
         {props.success && (
-          <div className="my-2">Vi har tagit emot din bokning!</div>
+          <div className="my-2">We have received your booking</div>
         )}
       </form>
     </div>

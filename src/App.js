@@ -1,20 +1,17 @@
 import React, {useEffect, useState } from 'react';
-//import "./index.css";
 import { v4 as uuidv4 } from "uuid";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import HomePage from './Pages/Homepage/HomePage';
-import Footer from './Components/Footer';
-import About from './Pages/About Us/About';
 import Nav from "./Components/Nav";
+import HomePage from './Pages/Homepage/HomePage';
+import About from './Pages/About Us/About';
 import Services from './Pages/Our Services/Services';
 import ContactUs from './Pages/Contact/ContactUs';
-import ObjectsForSale from './Pages/Homes/ObjectsForSale';
-import ObjectPage from './Pages/Homes/ObjectPage';
-
+import Footer from './Components/Footer';
+import ObjectPage from './Pages/Homes/Homes';
 import data from "./data/objects.json";
 import Blogg from './Pages/Blog/Blogg';
-
+import ObjectsForSale from './Pages/Homes/HomesForSale';
 
 
 function App() {

@@ -25,7 +25,7 @@ const Login = (props) => {
               className="form-control"
               type="text"
               name="userName"
-              placeholder="Användarnamn"
+              placeholder="Username"
               value={props.loginData.userName}
               onChange={handleChange}
             />
@@ -35,7 +35,7 @@ const Login = (props) => {
               className="form-control"
               type="password"
               name="password"
-              placeholder="Lösenord"
+              placeholder="Password"
               value={props.loginData.password}
               onChange={handleChange}
             />

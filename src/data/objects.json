@@ -3,80 +3,76 @@
     "objects": [
       {
         "image": "/images/todd-kent-178j8tJrNlc-unsplash.jpg",
-        "address": "Kungsgatan 46, Göteborg",
-        "price": "4995000",
-        "rooms": "4",
-        "bathrooms": "1",
-        "area": "98",
+        "address": "parkuddsgatan 9, Gothenburg",
+        "price": "7533422",
+        "rooms": "6",
+        "bathrooms": "3",
+        "area": "78",
         "text": [
-          "Trevligt 4rok i centrala Göteborg med utsikt över kanalen.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue aliquam malesuada. Donec leo ipsum, lacinia at urna in, laoreet aliquam nunc. In ornare ex molestie mauris venenatis mollis a ac mi. Aliquam in elit nunc. Praesent maximus quam nec bibendum fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eleifend nisi sit amet eros laoreet convallis.",
-          "Etiam et erat viverra, vulputate enim vitae, pellentesque dui. Phasellus lacinia fermentum ex, et convallis sapien lobortis id. Duis et odio tortor. Integer id mauris luctus, placerat quam non, sagittis nibh. Integer neque eros, vulputate ac mollis non, pretium at dui. Nulla id odio sed risus convallis laoreet. Proin est libero, scelerisquenon justo vitae, dapibus aliquet quam. Suspendisse tempor porta blandit. Sed euismod malesuada felis et tincidunt. Aliquam vehicula auctor pellentesque. Quisque eget tellus et velit molestie sollicitudin. Sed ex nulla, efficitur a sollicitudin tempus, tristique sit amet nibh."
+          "A house based in the center of gothenburg",
+          "With 5 bedrooms"
+          
         ]
       },
       {
         "image": "/images/house-isolated-field.jpg",
-        "address": "Skolgatan 9, Göteborg",
-        "price": "2795000",
-        "rooms": "2",
+        "address": "Parkuddsgatan 9, Gothenburg",
+        "price": "5843500",
+        "rooms": "1",
         "bathrooms": "1",
-        "area": "50",
+        "area": "80",
         "text": [
-          "Nyrenoverade 2:a i Haga, den charmiga delen av Göteborg med fina caféer och butiker.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue aliquam malesuada. Donec leo ipsum, lacinia at urna in, laoreet aliquam nunc. In ornare ex molestie mauris venenatis mollis a ac mi. Aliquam in elit nunc. Praesent maximus quam nec bibendum fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eleifend nisi sit amet eros laoreet convallis.",
-          "Etiam et erat viverra, vulputate enim vitae, pellentesque dui. Phasellus lacinia fermentum ex, et convallis sapien lobortis id. Duis et odio tortor. Integer id mauris luctus, placerat quam non, sagittis nibh. Integer neque eros, vulputate ac mollis non, pretium at dui. Nulla id odio sed risus convallis laoreet. Proin est libero, scelerisquenon justo vitae, dapibus aliquet quam. Suspendisse tempor porta blandit. Sed euismod malesuada felis et tincidunt. Aliquam vehicula auctor pellentesque. Quisque eget tellus et velit molestie sollicitudin. Sed ex nulla, efficitur a sollicitudin tempus, tristique sit amet nibh."
+          "A house based in the center of gothenburg",
+          "With 5 bedrooms"
         ]
       },
       {
         "image": "/images/todd-kent-178j8tJrNlc-unsplash.jpg",
-        "address": "Vasagatan 54, Göteborg",
-        "price": "6995000",
-        "rooms": "5",
-        "bathrooms": "2",
+        "address": "Parkuddsgatan 9, Gothenburg",
+        "price": "2995000",
+        "rooms": "3",
+        "bathrooms": "3",
         "area": "123",
         "text": [
-          "Fräsch 5:a i Göteborg. Nära till centrum och tågstationen.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue aliquam malesuada. Donec leo ipsum, lacinia at urna in, laoreet aliquam nunc. In ornare ex molestie mauris venenatis mollis a ac mi. Aliquam in elit nunc. Praesent maximus quam nec bibendum fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eleifend nisi sit amet eros laoreet convallis.",
-          "Etiam et erat viverra, vulputate enim vitae, pellentesque dui. Phasellus lacinia fermentum ex, et convallis sapien lobortis id. Duis et odio tortor. Integer id mauris luctus, placerat quam non, sagittis nibh. Integer neque eros, vulputate ac mollis non, pretium at dui. Nulla id odio sed risus convallis laoreet. Proin est libero, scelerisquenon justo vitae, dapibus aliquet quam. Suspendisse tempor porta blandit. Sed euismod malesuada felis et tincidunt. Aliquam vehicula auctor pellentesque. Quisque eget tellus et velit molestie sollicitudin. Sed ex nulla, efficitur a sollicitudin tempus, tristique sit amet nibh."
+          "A house based in the center of gothenburg",
+          "With 5 bedrooms"
         ]
       },
       {
         "image": "/images/3d-rendering-large-modern-contemporary-house-wood-concrete.jpg",
-        "address": "Tellgrensgatan 15, Göteborg",
-        "price": "1950000",
-        "rooms": "1",
+        "address": "Parkuddsgatan 9, Gothenburg",
+        "price": "340000",
+        "rooms": "2",
         "bathrooms": "1",
-        "area": "36",
+        "area": "76",
         "text": [
-          "1:a i Majorna. Lugn område, nära till Slottsskogen.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue aliquam malesuada. Donec leo ipsum, lacinia at urna in, laoreet aliquam nunc. In ornare ex molestie mauris venenatis mollis a ac mi. Aliquam in elit nunc. Praesent maximus quam nec bibendum fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eleifend nisi sit amet eros laoreet convallis.",
-          "Etiam et erat viverra, vulputate enim vitae, pellentesque dui. Phasellus lacinia fermentum ex, et convallis sapien lobortis id. Duis et odio tortor. Integer id mauris luctus, placerat quam non, sagittis nibh. Integer neque eros, vulputate ac mollis non, pretium at dui. Nulla id odio sed risus convallis laoreet. Proin est libero, scelerisquenon justo vitae, dapibus aliquet quam. Suspendisse tempor porta blandit. Sed euismod malesuada felis et tincidunt. Aliquam vehicula auctor pellentesque. Quisque eget tellus et velit molestie sollicitudin. Sed ex nulla, efficitur a sollicitudin tempus, tristique sit amet nibh."
+          "A house based in the center of gothenburg",
+          "With 5 bedrooms"
         ]
       },
       {
         "image": "/images/3d-rendering-large-modern-contemporary-house-wood-concrete.jpg",
-        "address": "Monsungatan 33, Göteborg",
-        "price": "5995000",
-        "rooms": "3",
-        "bathrooms": "1",
-        "area": "79",
-        "text": [
-          "Trea till salu i den moderniserade stadsdelen Eriksberg.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue aliquam malesuada. Donec leo ipsum, lacinia at urna in, laoreet aliquam nunc. In ornare ex molestie mauris venenatis mollis a ac mi. Aliquam in elit nunc. Praesent maximus quam nec bibendum fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eleifend nisi sit amet eros laoreet convallis.",
-          "Etiam et erat viverra, vulputate enim vitae, pellentesque dui. Phasellus lacinia fermentum ex, et convallis sapien lobortis id. Duis et odio tortor. Integer id mauris luctus, placerat quam non, sagittis nibh. Integer neque eros, vulputate ac mollis non, pretium at dui. Nulla id odio sed risus convallis laoreet. Proin est libero, scelerisquenon justo vitae, dapibus aliquet quam. Suspendisse tempor porta blandit. Sed euismod malesuada felis et tincidunt. Aliquam vehicula auctor pellentesque. Quisque eget tellus et velit molestie sollicitudin. Sed ex nulla, efficitur a sollicitudin tempus, tristique sit amet nibh."
-        ]
-      },
-      {
-        "image": "/images/3d-rendering-large-modern-contemporary-house-wood-concrete.jpg",
-        "address": "Videlundsgatan 4, Göteborg",
-        "price": "11495000",
-        "rooms": "7",
+        "address": "Parkuddsgatan 9, Gothenburg",
+        "price": "547000",
+        "rooms": "5",
         "bathrooms": "2",
-        "area": "186",
+        "area": "99",
         "text": [
-          "Modern villa med 7 rum och två badrum. Stor tomt och nära till havet.",
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue aliquam malesuada. Donec leo ipsum, lacinia at urna in, laoreet aliquam nunc. In ornare ex molestie mauris venenatis mollis a ac mi. Aliquam in elit nunc. Praesent maximus quam nec bibendum fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eleifend nisi sit amet eros laoreet convallis.",
-          "Etiam et erat viverra, vulputate enim vitae, pellentesque dui. Phasellus lacinia fermentum ex, et convallis sapien lobortis id. Duis et odio tortor. Integer id mauris luctus, placerat quam non, sagittis nibh. Integer neque eros, vulputate ac mollis non, pretium at dui. Nulla id odio sed risus convallis laoreet. Proin est libero, scelerisquenon justo vitae, dapibus aliquet quam. Suspendisse tempor porta blandit. Sed euismod malesuada felis et tincidunt. Aliquam vehicula auctor pellentesque. Quisque eget tellus et velit molestie sollicitudin. Sed ex nulla, efficitur a sollicitudin tempus, tristique sit amet nibh."
+          "A house based in the center of gothenburg",
+          "With 5 bedrooms"
+        ]
+      },
+      {
+        "image": "/images/3d-rendering-large-modern-contemporary-house-wood-concrete.jpg",
+        "address": "Parkuddsgatan 9, Gothenburg",
+        "price": "11495000",
+        "rooms": "6",
+        "bathrooms": "4",
+        "area": "206",
+        "text": [
+          "",
+          "A house based in the center of gothenburg",
+          "With 5 bedrooms"
         ]
       }
     ]

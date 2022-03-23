@@ -9,9 +9,10 @@ body{
     background-repeat: no-repeat;
     width: 100vw;
     padding-top: 10%;
-    
+    padding-bottom: 20rem;
     margin: 0;
     overflow-x: hidden;
+    height: 100%;
 } 
 
 .homeP-container{
@@ -24,10 +25,8 @@ body{
     max-width: 40%;
     margin-top: -50%;
     justify-content: center;
-
-    
-    padding-top: 60%;
-    padding-bottom: 2rem;
+    padding-top: 50%;
+    padding-bottom: 9rem;
     
 }
 

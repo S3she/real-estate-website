@@ -34,7 +34,7 @@ const Filter = (props) => {
       <div className="row row-cols-1 row-cols-md-6 align-items-end">
         <div className="col">
           <label className="form-label" htmlFor="price">
-            Pris
+            Price
           </label>
           <input
             className="form-control mb-2"
@@ -61,7 +61,7 @@ const Filter = (props) => {
         </div>
         <div className="col">
           <label className="form-label" htmlFor="rooms">
-            Rum
+            Room
           </label>
           <input
             className="form-control mb-2"
@@ -88,7 +88,7 @@ const Filter = (props) => {
         </div>
         <div className="col">
           <label className="form-label" htmlFor="bathrooms">
-            Badrum
+            Bathrooms
           </label>
           <input
             className="form-control mb-2"
@@ -115,7 +115,7 @@ const Filter = (props) => {
         </div>
         <div className="col">
           <label className="form-label" htmlFor="area">
-            Boarea
+             maxArea
           </label>
           <input
             className="form-control mb-2"
@@ -142,7 +142,7 @@ const Filter = (props) => {
         </div>
         <div className="col text-center">
           <Button className={"btn btn-primary btn-lg my-2"} type={"submit"}>
-            Filtrera
+            Filter
           </Button>
         </div>
         <div className="col text-center">
@@ -151,7 +151,7 @@ const Filter = (props) => {
             type={"reset"}
             onClick={reset}
           >
-            Återställ
+            reset
           </Button>
         </div>
       </div>

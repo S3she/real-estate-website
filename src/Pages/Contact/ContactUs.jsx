@@ -60,29 +60,29 @@ const ContactUs = () => {
     <div className="container-sm">
       {success && (
         <div className="overlay">
-          <h3 className="text-center">Tack för ditt meddelande!</h3>
+          <h3 className="text-center">Thank you for your message</h3>
         </div>
       )}
       <div className="row mb-4">
-        <h2 className="text-center">Kontakta oss</h2>
+        <h2 className="text-center">Contact us</h2>
       </div>
       <div className="row row-cols-1 row-cols-md-2">
         <div className="col align-self-center">
           <div className="row row-cols-1 row-cols-md-3 justify-content-center align-content-center">
             <Section className={"col d-flex flex-column"}>
               <FontAwesomeIcon icon={faMapLocationDot} className="fa-3x mb-3" />
-              <p style={{color:"white"}} className="text-center">Real Estate AB Huvudkontor</p>
-              <p style={{color:"white"}} className="text-center">Kungsholmsgatan 31, 104 20 Göteborg</p>
+              <p style={{color:"white"}} className="text-center">Real Estate Gothenburg Office</p>
+              <p style={{color:"white"}} className="text-center">Avenyn, Gothenburg</p>
             </Section>
             <Section className={"col d-flex flex-column"}>
               <FontAwesomeIcon icon={faPhone} style={{color:"white"}} className="fa-3x mb-3" />
-              <p style={{color:"white"}} className="text-center">Real Estate AB Huvudkontor</p>
-              <p style={{color:"white"}} className="text-center">08-65 45 21 00</p>
+              <p style={{color:"white"}} className="text-center">Real Estate Gothenburg phone number</p>
+              <p style={{color:"white"}} className="text-center">09-543-565</p>
             </Section>
             <Section className={"col d-flex flex-column"}>
               <FontAwesomeIcon icon={faEnvelope} style={{color:"white"}} className="fa-3x mb-3" />
-              <p style={{color:"white"}} className="text-center">Real Estate AB Huvudkontor</p>
-              <p style={{color:"white"}} className="text-center">info@realestate.se</p>
+              <p style={{color:"white"}} className="text-center">Real Estate Gothenburg Email</p>
+              <p style={{color:"white"}} className="text-center">message@realEstateGothenburg.com</p>
             </Section>
           </div>
         </div>

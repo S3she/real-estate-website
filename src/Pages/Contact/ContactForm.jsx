@@ -9,7 +9,7 @@ const ContactForm = (props) => {
     <>
       <form className="contact-form p-3" onSubmit={props.submit}>
         <label className="form-label mb-1" htmlFor="firstName">
-          Förnamn
+          First Name
         </label>
         <input
           className="form-control mb-4"
@@ -19,7 +19,7 @@ const ContactForm = (props) => {
           onChange={handleChange}
         />
         <label className="form-label mb-1" htmlFor="lastName">
-          Efternamn
+          Last Name
         </label>
         <input
           className="form-control mb-4"
@@ -29,7 +29,7 @@ const ContactForm = (props) => {
           onChange={handleChange}
         />
         <label className="form-label mb-1" htmlFor="phone">
-          Telefon
+          Phone number
         </label>
         <input
           className="form-control mb-4"
@@ -49,7 +49,7 @@ const ContactForm = (props) => {
           onChange={handleChange}
         />
         <label className="form-label mb-1" htmlFor="message">
-          Frågor
+          Questions
         </label>
         <textarea
           className="form-control mb-4"
@@ -60,7 +60,7 @@ const ContactForm = (props) => {
           onChange={handleChange}
         />
         <Button className="btn btn-primary btn-lg" type="submit">
-          Skicka
+          Send
         </Button>
       </form>
     </>

@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faRotateLeft } from "@fortawesome/free-solid-svg-icons";
+import { faArrowLeftLong } from "@fortawesome/free-solid-svg-icons";
 import { v4 as uuidv4 } from "uuid";
 import BookingForm from "../../Components/BookingForm";
 import Button from "../Blog/Button";
-
 
 
 const ObjectPage = ({ objects }) => {
@@ -77,14 +76,18 @@ const ObjectPage = ({ objects }) => {
   };
 
   return (
-    <div className="container-sm">
-      <div className="row row-cols-1 row-cols-lg-3">
+      <div className="row-cols-lg-1">
         <div className="col-lg-1">
           <Button className={"btn-icon"} type={"button"} onClick={onClick}>
-            <FontAwesomeIcon icon={faRotateLeft} className="fa-2x" />
-            <div>Return</div>
+            <FontAwesomeIcon icon={faArrowLeftLong} className="fa-2x" />
           </Button>
         </div>
+      
+
+        <div className="container-sm"> 
+        <div className="row">
+        <div className="row row-cols-1">
+        <div className="card-body card h-150 mx-20">
         <div className="col-lg-6 mb-2">
           <img src={object.image} alt="apartment" className="img-fluid" />
           <div className="mt-2">
@@ -97,16 +100,23 @@ const ObjectPage = ({ objects }) => {
               <p key={index}>{paragraph}</p>
             ))}
           </div>
+          
+           
         </div>
-        <div className="col-lg-5">
+        <div className="col-lg-4">
           <BookingForm
             data={booking}
             onChange={handleFieldChange}
             submit={handleSubmit}
             success={success}
           />
+          </div>
+        </div> 
         </div>
-      </div>
+        </div>
+        </div>
+      
+
     </div>
   );
 };

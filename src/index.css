@@ -181,6 +181,15 @@ footer > div > p {
   max-height: 25rem;
 }
 
+.return-icon {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.return-icon:hover {
+  background-color: transparent;
+}
 
 @media only screen and (max-width: 767px) {
   #nav-container {

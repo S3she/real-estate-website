@@ -7,7 +7,7 @@ import BookingForm from "../../Components/BookingForm";
 import Button from "../Blog/Button";
 
 
-const ObjectPage = ({ objects }) => {
+const Homes = ({ objects }) => {
   const params = useParams();
   const navigate = useNavigate();
 
@@ -76,49 +76,42 @@ const ObjectPage = ({ objects }) => {
   };
 
   return (
-      <div className="row-cols-lg-1">
+
+    <div className="container-sm">
+      <div className="row row-cols-1 row-cols-lg-3">
         <div className="col-lg-1">
           <Button className={"btn-icon"} type={"button"} onClick={onClick}>
             <FontAwesomeIcon icon={faArrowLeftLong} className="fa-2x" />
           </Button>
         </div>
-      
-
-        <div className="container-sm"> 
-        <div className="row">
-        <div className="row row-cols-1">
-        <div className="card-body card h-150 mx-20">
         <div className="col-lg-6 mb-2">
           <img src={object.image} alt="apartment" className="img-fluid" />
-          <div className="mt-2">
-            <h4>{object.address}</h4>
-            <h5>Price: {object.price} kr</h5>
-            <h5>Rooms: {object.rooms}</h5>
-            <h5>Bathrooms: {object.bathrooms}</h5>
-            <h5>Living area: {object.area} kvm</h5>
+          <div style={{backgroundColor: "white"}} className="mt-2">
+            <h4 >{object.address}</h4>
+            <h5 >Price: {object.price} kr</h5>
+            <h5 >Rooms: {object.rooms}</h5>
+            <h5 >Bathrooms: {object.bathrooms}</h5>
+            <h5 >Living area: {object.area} kvm</h5>
+            <br></br>
             {text.map((paragraph, index) => (
-              <p key={index}>{paragraph}</p>
+              <h6 key={index}>{paragraph}</h6>
             ))}
+            <br></br>
           </div>
-          
-           
         </div>
-        <div className="col-lg-4">
+        <div className="col-lg-5">
           <BookingForm
             data={booking}
             onChange={handleFieldChange}
             submit={handleSubmit}
             success={success}
           />
-          </div>
-        </div> 
         </div>
-        </div>
-        </div>
-      
-
+      </div>
     </div>
+
+   
   );
 };
 
-export default ObjectPage;
+export default Homes;

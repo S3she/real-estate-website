@@ -80,7 +80,7 @@ const Homes = ({ objects }) => {
     <div className="container-sm">
       <div className="row row-cols-1 row-cols-lg-3">
         <div className="col-lg-1">
-          <Button className={"btn-icon"} type={"button"} onClick={onClick}>
+          <Button className={"return-icon"} type={"button"} onClick={onClick}>
             <FontAwesomeIcon icon={faArrowLeftLong} className="fa-2x" />
           </Button>
         </div>

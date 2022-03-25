@@ -84,9 +84,9 @@ const Homes = ({ objects }) => {
             <FontAwesomeIcon icon={faArrowLeftLong} className="fa-2x" />
           </Button>
         </div>
-        <div className="col-lg-6 mb-2">
-          <img src={object.image} alt="apartment" className="img-fluid" />
-          <div style={{backgroundColor: "white"}} className="mt-2">
+        <div className="col-lg-6 mb-2 pt-5">
+          <img src={object.image} alt="apartment" className="img-fluid center-align align-items-center" />
+          <div style={{backgroundColor: "white"}} className="text-left-mt-2">
             <h4 >{object.address}</h4>
             <h5 >Price: {object.price} kr</h5>
             <h5 >Rooms: {object.rooms}</h5>
